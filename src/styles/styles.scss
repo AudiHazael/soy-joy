@@ -1,0 +1,323 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: system-ui, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #010101;
+}
+
+// Variables
+$textLight: #f1f1f1f1;
+$textDark: #010101;
+$textSmall: 13px;
+$textLarge: 16px;
+
+// Functions
+
+@mixin heroHeader {
+  font-family: Open Sans;
+  font-weight: 700;
+  font-size: 60px;
+  color: #ffffff;
+}
+
+@mixin heroParagraph {
+  font-family: Open Sans;
+  font-weight: 400;
+  font-size: 24px;
+  color: #ffffff;
+}
+
+@mixin sectionHeader() {
+  font-family: Open Sans;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+@mixin displayCenter {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+@mixin nameTag {
+  font-family: Open Sans;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+@mixin paragraph() {
+  color: #fff;
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+@mixin cardParagraph {
+  font-size: 1rem;
+  color: #555;
+}
+
+@mixin primaryButton {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background: #f5b315;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+@mixin secondaryButton {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background: transparent;
+  color: #fff;
+  border: 2px solid #f5b315;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+@mixin images {
+  width: auto;
+  height: 200px;
+}
+
+@mixin aTags {
+  color: rgb(129, 192, 245);
+  font-size: $textLarge;
+  text-decoration: none;
+}
+
+@mixin card {
+  width: 18rem;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  .navbar {
+    background: rgba(0, 0, 0, 0.404);
+  }
+
+  .navbar-nav li.nav-item a.nav-link {
+    color: #fff;
+    text-align: center;
+    font-family: Inria Sans;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    .btn-secondary {
+      @include secondaryButton();
+    }
+  }
+
+  .navbar-nav button {
+    @include secondaryButton();
+    padding: 0.5rem 3rem;
+    color: #fff;
+    text-align: center;
+    a {
+      text-decoration: none;
+      font-size: 12px;
+      color: #ffe7c9;
+      font-weight: 600;
+    }
+  }
+}
+
+.hero {
+  background-image: url("../assets/Images/Header.png");
+  background-size: cover;
+  background-position: center;
+
+  background: rgba(0, 0, 0, 0.863);
+  padding: 50px;
+
+  h1 {
+    color: #fff;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  h2 {
+    color: #f5b315;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+
+  p {
+    @include paragraph();
+  }
+
+  .btn-primary {
+    @include primaryButton();
+
+    a {
+      text-decoration: none;
+    }
+  }
+
+  .btn-secondary {
+    @include secondaryButton;
+
+    a {
+      text-decoration: none;
+    }
+  }
+}
+
+.facts {
+  background: #fcfcf7;
+  .row {
+    .h3 {
+      color: #333;
+      font-size: 2.5rem;
+    }
+
+    img {
+      height: 60px;
+    }
+  }
+}
+
+.varieties {
+  background: #f5ead8;
+  h2 {
+    font-size: 2.5rem;
+    color: #333;
+  }
+
+  p {
+    font-size: 1.2rem;
+    color: #555;
+  }
+
+  p {
+    font-size: 1.2rem;
+    color: #555;
+  }
+
+  .card {
+    h3 {
+      font-size: 1.5rem;
+      color: #333;
+    }
+
+    p {
+      font-size: 1rem;
+      color: #555;
+    }
+  }
+  .btn-primary {
+    @include primaryButton();
+    a {
+      text-decoration: none;
+    }
+  }
+}
+
+.nudgets {
+  background: #efeae1;
+  h2 {
+    font-size: 28px;
+    font-weight: 500;
+  }
+}
+
+.shopping {
+  img {
+    width: 100%;
+  }
+
+  .btn-primary {
+    @include primaryButton();
+    a {
+      text-decoration: none;
+    }
+  }
+}
+
+.faq {
+  .row {
+    .col-md-4 {
+      img {
+        width: 240px;
+        height: auto;
+      }
+    }
+
+    .col-md-6 {
+      .qa {
+        border-bottom: 3px solid #ffeccc;
+      }
+    }
+  }
+}
+
+.testimonial {
+  background-color: #f5ead8;
+  .row {
+    .images {
+      background-color: #fff;
+      padding: 30px;
+      border-radius: 12px;
+      img {
+        width: 100px;
+        height: 75px;
+      }
+    }
+  }
+}
+
+.insta {
+  background-color: #fcfcf7;
+  .handle {
+    span {
+      a {
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.footer {
+  background: url("...");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  ul {
+    list-style: none;
+    a {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: #a3daff;
+      text-decoration: none;
+    }
+  }
+
+  .copyright {
+    a {
+      color: #a3daff;
+      text-decoration: none;
+    }
+  }
+}
