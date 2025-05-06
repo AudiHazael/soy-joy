@@ -36,3 +36,13 @@ Thumbs.db
 # Optional: coverage reports if using testing
 coverage/
 
+# Vite cache
+.vite/
+
+# ESLint cache
+.eslintcache
+
+# TypeScript build artifacts
+*.tsbuildinfo
+
+
