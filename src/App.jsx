@@ -8,23 +8,23 @@ import Shop from "./pages/Shop";
 
 function App() {
   return (
-    <>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/home" element={<Home />} />
-        <Route path="/About" element={<About />} />
-        <Route path="/Contact" element={<Contact />} />
-        <Route path="/Varieties" element={<Varieties />} />
-        <Route path="/Blog" element={<Blog />} />
-        <Route path="/Shop" element={<Shop />} />
-        <Route path="/About/Shop" element={<Shop />} />
-        <Route path="/About/COntact" element={<Contact />} />
-        <Route path="/Varieties/Shop" element={<Shop />} />
-        <Route path="/Varieties/Contact" element={<Contact />} />
-        <Route path="/Blog/Contact" element={<Contact />} />
-        <Route path="/Blog/Shop" element={<Shop />} />
-      </Routes>
-    </>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/home" element={<Home />} />
+      <Route path="/about" element={<About />} />
+      <Route path="/contact" element={<Contact />} />
+      <Route path="/varieties" element={<Varieties />} />
+      <Route path="/blog" element={<Blog />} />
+      <Route path="/shop" element={<Shop />} />
+
+      {/* Optional nested-like routes for access from other pages */}
+      <Route path="/about/shop" element={<Shop />} />
+      <Route path="/about/contact" element={<Contact />} />
+      <Route path="/varieties/shop" element={<Shop />} />
+      <Route path="/varieties/contact" element={<Contact />} />
+      <Route path="/blog/contact" element={<Contact />} />
+      <Route path="/blog/shop" element={<Shop />} />
+    </Routes>
   );
 }
 
