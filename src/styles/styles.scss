@@ -93,7 +93,7 @@ $textLarge: 16px;
 
 @mixin aTags {
   color: rgb(129, 192, 245);
-  font-size: $textLarge;
+  font-size: $textSmall;
   text-decoration: none;
 }
 
@@ -281,6 +281,11 @@ nav {
         width: 100px;
         height: 75px;
       }
+      .carousel-item {
+        h5 {
+          font-size: 10px !important;
+        }
+      }
     }
   }
 }
@@ -296,11 +301,129 @@ nav {
   }
 }
 
+.cta {
+  background-color: #f5ead8;
+  .subscribe {
+    .col-md-12 {
+      background-color: #f4dcb5;
+      border-radius: 12px;
+
+      width: 75%;
+      .row {
+        .col-md-6 {
+          position: relative;
+          display: inline-block;
+          form {
+            input {
+              width: 300px;
+
+              border: none;
+              border-radius: 6px;
+              background-color: #f3e8d6;
+            }
+            .btn-primary {
+              @include primaryButton();
+              font-weight: 700;
+              color: #fff;
+              button:hover {
+                background-color: #0056b3;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .distributor {
+    background-color: #f5ead8;
+
+    .col-md-12 {
+      border: 4px solid #fef2de;
+      border-radius: 12px;
+      padding: 5rem 3rem;
+      width: 75%;
+      margin: 4rem 0;
+
+      .btn-primary {
+        @include primaryButton();
+        a {
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
+
+// Contact Page
+.contacts {
+  .row {
+    border: 4px solid #fef2de;
+    border-radius: 12px;
+    .contact-info {
+      background: #fef2de;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding-left: 5rem;
+    }
+    form {
+      label {
+        color: #010101;
+      }
+    }
+  }
+}
+
+// Shop Page
+.shop {
+  background-color: #f4dcb5;
+  .container {
+    .row {
+      .shopCta {
+        background-color: #faf4eb;
+        border-radius: 12px;
+        padding: 3rem 3rem;
+        margin-bottom: 2rem;
+
+        h2 {
+          font-size: 24px;
+        }
+
+        p {
+          font-size: 14px;
+        }
+      }
+      .col-md-4 {
+        .btn-primary {
+          @include secondaryButton();
+          min-width: 175px;
+          margin-left: 0px;
+          a {
+            text-decoration: none;
+            span {
+              font-size: 20px;
+              font-weight: 500;
+              color: #ffffff;
+            }
+          }
+        }
+
+        border: 1px solid #fef2deb7;
+        border-radius: 12px;
+        padding: 3rem 3rem;
+        margin-bottom: 2rem;
+      }
+    }
+  }
+}
+
 .footer {
-  background: url("...");
+  background-color: #9d836e;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  color: #f1f1f1;
 
   ul {
     list-style: none;
@@ -309,7 +432,7 @@ nav {
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      color: #a3daff;
+      color: #e6f2fa;
       text-decoration: none;
     }
   }

@@ -10,7 +10,7 @@ function Contact() {
   return (
     <div>
       <Helmet>
-        <title>SOyJoy | Sip Pure Joy with Soy </title>
+        <title>SoyJoy | Sip Pure Joy with Soy </title>
         <meta
           name="description"
           content="Master the EBC Forex Strategy with WealthWave Global Network and achieve financial freedom."
@@ -45,10 +45,10 @@ function Contact() {
         </div>
       </section>
 
-      <section className="contacts">
+      <section className="contacts mt-5 mb-5">
         <div className="container">
           <div className="row justify-content-center">
-            <div className="col-md-4 col-12 justify-content-center contact-info">
+            <div className="col-md-6 col-12 justify-content-center contact-info">
               <p>
                 132 Dartmouth Street Boston, Massachusetts <br /> 02156 United
                 States
@@ -56,7 +56,7 @@ function Contact() {
               <p>+1012 3456 789</p>
               <p>demo@gmail.com</p>
             </div>
-            <div className="col-md-8">
+            <div className="col-md-6">
               <form
                 className="container my-5 text-white"
                 style={{ maxWidth: "600px" }}>

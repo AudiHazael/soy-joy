@@ -10,7 +10,7 @@ function About() {
   return (
     <div>
       <Helmet>
-        <title>SOyJoy | Sip Pure Joy with Soy </title>
+        <title>SoyJoy | Sip Pure Joy with Soy </title>
         <meta
           name="description"
           content="Master the EBC Forex Strategy with WealthWave Global Network and achieve financial freedom."
@@ -35,7 +35,7 @@ function About() {
         </div>
       </section>
 
-      <section className="about-us">
+      <section className="about-us pt-5 pb-5">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-md-4 col-12">

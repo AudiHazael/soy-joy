@@ -10,7 +10,7 @@ function Shop() {
   return (
     <div>
       <Helmet>
-        <title>SOyJoy | Sip Pure Joy with Soy </title>
+        <title>SoyJoy | Sip Pure Joy with Soy </title>
         <meta
           name="description"
           content="Master the EBC Forex Strategy with WealthWave Global Network and achieve financial freedom."

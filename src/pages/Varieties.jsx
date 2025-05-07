@@ -10,7 +10,7 @@ function Varieties() {
   return (
     <div>
       <Helmet>
-        <title>SOyJoy | Sip Pure Joy with Soy </title>
+        <title>SoyJoy | Sip Pure Joy with Soy </title>
         <meta name="description" content="" />
         <link rel="canonical" href="https://your-website.com/wealthwave" />
       </Helmet>
@@ -29,6 +29,81 @@ function Varieties() {
             Experience our rich and luxurious blends
           </p>
           <HeroButton />
+        </div>
+      </section>
+
+      <section className="flavors pt-5 pb-5">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-md-4">
+              <img src="..." alt="flavor image 1" />
+            </div>
+            <div className="col-md-6">
+              <h5>Lorem ipsum.</h5>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Cupiditate nesciunt veritatis omnis nulla suscipit iste id
+                dolorum distinctio minus at sapiente, temporibus dignissimos
+                culpa ipsam fuga fugiat quos, est iure.
+              </p>
+            </div>
+          </div>
+          <div className="row justify-content-center">
+            <div className="col-md-4">
+              <img src="..." alt="flavor image 1" />
+            </div>
+            <div className="col-md-6">
+              <h5>Lorem ipsum.</h5>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Cupiditate nesciunt veritatis omnis nulla suscipit iste id
+                dolorum distinctio minus at sapiente, temporibus dignissimos
+                culpa ipsam fuga fugiat quos, est iure.
+              </p>
+            </div>
+          </div>
+          <div className="row justify-content-center">
+            <div className="col-md-4">
+              <img src="..." alt="flavor image 1" />
+            </div>
+            <div className="col-md-6">
+              <h5>Lorem ipsum.</h5>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Cupiditate nesciunt veritatis omnis nulla suscipit iste id
+                dolorum distinctio minus at sapiente, temporibus dignissimos
+                culpa ipsam fuga fugiat quos, est iure.
+              </p>
+            </div>
+          </div>
+          <div className="row justify-content-center">
+            <div className="col-md-4">
+              <img src="..." alt="flavor image 1" />
+            </div>
+            <div className="col-md-6">
+              <h5>Lorem ipsum.</h5>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Cupiditate nesciunt veritatis omnis nulla suscipit iste id
+                dolorum distinctio minus at sapiente, temporibus dignissimos
+                culpa ipsam fuga fugiat quos, est iure.
+              </p>
+            </div>
+          </div>
+          <div className="row justify-content-center">
+            <div className="col-md-4">
+              <img src="..." alt="flavor image 1" />
+            </div>
+            <div className="col-md-6">
+              <h5>Lorem ipsum.</h5>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Cupiditate nesciunt veritatis omnis nulla suscipit iste id
+                dolorum distinctio minus at sapiente, temporibus dignissimos
+                culpa ipsam fuga fugiat quos, est iure.
+              </p>
+            </div>
+          </div>
         </div>
       </section>
 

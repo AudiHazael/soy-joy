@@ -55,7 +55,7 @@ function Home() {
               </h3>
               <img
                 className="ms-5"
-                src="../Assets/Images/pgdivider.png"
+                src="/Assets/Images/pgdivider.png"
                 alt="pg divider"
               />
             </div>
@@ -257,7 +257,7 @@ function Home() {
               </h4>
               <img
                 className="ms-5"
-                src="./Assets/Images/Rectangle 3985.png"
+                src="/Assets/Images/pgdivider.png"
                 alt="pg divider"
               />
             </div>
@@ -300,21 +300,21 @@ function Home() {
                 <div className="col-md-6">
                   <img
                     src="./Assets/Images/Frame 499 (1).png"
-                    class=""
+                    className=""
                     alt="client 2"
                   />
                 </div>
                 <div className="col-md-6">
                   <img
                     src="./Assets/Images/Frame 499 (1).png"
-                    class=""
+                    className=""
                     alt="client 3"
                   />
                 </div>
                 <div className="col-md-6">
                   <img
                     src="./Assets/Images/Frame 499 (1).png"
-                    class=""
+                    className=""
                     alt="client 4"
                   />
                 </div>
@@ -413,7 +413,7 @@ function Home() {
               </h4>
               <img
                 className="ms-5"
-                src="./Assets/Images/Rectangle 3985.png"
+                src="/Assets/Images/pgdivider.png"
                 alt="pg divider"
               />
             </div>
@@ -466,7 +466,7 @@ function Home() {
         </div>
       </section>
 
-      <section className="cta">
+      <section className="cta pt-4 pb-4">
         <div className="container">
           <div
             className="row justify-content-center subscribe pt-4 pb-4"
@@ -474,11 +474,10 @@ function Home() {
             data-aos-easing="ease-in-out"
             data-aos-delay="1500"
             data-aos-duration="1000">
-            <div className="col-md-12 pt-5">
+            <div className="col-md-12 pt-5 pb-5">
               <div className="row justify-content-center align-items-center">
                 <div className="col-md-4 text-md-start text-center mb-3 mb-md-0">
                   <h3>Subscribe to our Newsletter</h3>
-                  <p>Get latest offers & news</p>
                 </div>
                 <div className="col-md-6">
                   <form className="d-flex">
@@ -509,7 +508,9 @@ function Home() {
                 Join our growing network of distributors and bring the goodness
                 of soy milk to homes everywhere
               </p>
-              <Link className="btn btn-info text-white fw-bold px-4" to="/...">
+              <Link
+                className="btn-primary btn-info text-white fw-bold px-4"
+                to="/...">
                 Contact Us !
               </Link>
             </div>
