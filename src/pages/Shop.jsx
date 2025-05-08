@@ -13,9 +13,9 @@ function Shop() {
         <title>SoyJoy | Sip Pure Joy with Soy </title>
         <meta
           name="description"
-          content="Master the EBC Forex Strategy with WealthWave Global Network and achieve financial freedom."
+          content="SoyJoy offers delicious, plant-based soy milk options for a healthy and joyful lifestyle."
         />
-        <link rel="canonical" href="https://your-website.com/wealthwave" />
+        <link rel="canonical" href="https://soy-joy.vercel.app/" />
       </Helmet>
 
       <Navbar />
@@ -64,16 +64,16 @@ function Shop() {
                 enjoy the pure joy of soy, delivered right to your doorstep.
                 Start your journey to healthier, happier living today!
               </p>
-              <img src="" alt="" />
+              <img src="https://via.placeholder.com/150" alt="product-sample" />
             </div>
             <div className="col-md-4 store ms-2 d-flex flex-column justify-content-center align-items-center">
               <div className="shop-1 pb-4">
                 <h3>Buy on Jumia</h3>
                 <button type="button" className="btn-primary">
-                  <a href="">
+                  <a href="#">
                     <div className="d-flex">
                       <img
-                        src="../Assets/Images/jumia.png"
+                        src="https://via.placeholder.com/150"
                         alt="jumia logo"
                         title="jumia by Kelvin Kinuthia on IconScout"
                         className="me-3"
@@ -88,10 +88,10 @@ function Shop() {
               <div className="shop-2">
                 <h3>Buy on Amazon</h3>
                 <button type="button" className="btn-primary">
-                  <a href="">
+                  <a href="#">
                     <div className="d-flex">
                       <img
-                        src="../Assets/Images/amazon.png"
+                        src="https://via.placeholder.com/150"
                         alt="amazon logo"
                         title="Amazon by Pixel Icons on IconScout"
                         className="me-3"

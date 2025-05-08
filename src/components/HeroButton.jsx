@@ -7,7 +7,7 @@ function HeroButton() {
     <div>
       <div className="d-flex">
         <Link
-          to="./Shop"
+          to="/Shop"
           target=""
           rel="noopener noreferrer"
           className="btn-primary btn-info text-white fw-bold px-4 me-4"
@@ -19,7 +19,7 @@ function HeroButton() {
         </Link>
 
         <Link
-          to="./Contact"
+          to="/Contact"
           target=""
           rel="noopener noreferrer"
           className="btn-secondary btn-info text-white fw-bold px-4"

@@ -15,9 +15,9 @@ function Home() {
         <title>SoyJoy | Sip Pure Joy with Soy </title>
         <meta
           name="description"
-          content="Master the EBC Forex Strategy with WealthWave Global Network and achieve financial freedom."
+          content="SoyJoy offers delicious, plant-based soy milk options for a healthy and joyful lifestyle."
         />
-        <link rel="canonical" href="https://your-website.com/wealthwave" />
+        <link rel="canonical" href="https://soy-joy.vercel.app/" />
       </Helmet>
 
       <Navbar />
@@ -55,7 +55,7 @@ function Home() {
               </h3>
               <img
                 className="ms-5"
-                src="/Assets/Images/pgdivider.png"
+                src="https://via.placeholder.com/150"
                 alt="pg divider"
               />
             </div>
@@ -95,7 +95,7 @@ function Home() {
             <div className="col">
               <div className="card h-100 shadow-sm">
                 <img
-                  src="..."
+                  src="https://via.placeholder.com/150"
                   className="card-img-top"
                   alt="Classic Soy Milk"
                 />
@@ -113,7 +113,7 @@ function Home() {
             <div className="col">
               <div className="card h-100 shadow-sm">
                 <img
-                  src="..."
+                  src="https://via.placeholder.com/150"
                   className="card-img-top"
                   alt="Vanilla Soy Milk"
                 />
@@ -131,7 +131,7 @@ function Home() {
             <div className="col">
               <div className="card h-100 shadow-sm">
                 <img
-                  src="..."
+                  src="https://via.placeholder.com/150"
                   className="card-img-top"
                   alt="Chocolate Soy Milk"
                 />
@@ -149,7 +149,7 @@ function Home() {
             <div className="col">
               <div className="card h-100 shadow-sm">
                 <img
-                  src="..."
+                  src="https://via.placeholder.com/150"
                   className="card-img-top"
                   alt="Unsweetened Soy Milk"
                 />
@@ -165,9 +165,17 @@ function Home() {
           </div>
 
           <div className="mt-5 d-flex justify-content-end">
-            <a href="..." className="btn btn-primary">
+            <Link
+              to="/Varieties"
+              target=""
+              rel="noopener noreferrer"
+              className="btn-primary btn-info text-white fw-bold px-4 me-4"
+              data-aos="fade"
+              data-aos-easing="ease-in-out"
+              data-aos-delay="1500"
+              data-aos-duration="1000">
               See More
-            </a>
+            </Link>
           </div>
         </div>
       </section>
@@ -193,7 +201,7 @@ function Home() {
             <div className="col">
               <div className="card h-100 shadow-sm">
                 <img
-                  src="..."
+                  src="https://via.placeholder.com/150"
                   className="card-img-top"
                   alt="Classic Soy Milk"
                 />
@@ -204,7 +212,7 @@ function Home() {
             <div className="col">
               <div className="card h-100 shadow-sm">
                 <img
-                  src="..."
+                  src="https://via.placeholder.com/150"
                   className="card-img-top"
                   alt="Vanilla Soy Milk"
                 />
@@ -215,7 +223,7 @@ function Home() {
             <div className="col">
               <div className="card h-100 shadow-sm">
                 <img
-                  src="..."
+                  src="https://via.placeholder.com/150"
                   className="card-img-top"
                   alt="Chocolate Soy Milk"
                 />
@@ -226,7 +234,7 @@ function Home() {
             <div className="col">
               <div className="card h-100 shadow-sm">
                 <img
-                  src="..."
+                  src="https://via.placeholder.com/150"
                   className="card-img-top"
                   alt="Unsweetened Soy Milk"
                 />
@@ -235,9 +243,17 @@ function Home() {
           </div>
 
           <div className="mt-4 d-flex justify-content-end">
-            <a href="/Web Pages/shop.html" className="btn btn-primary">
-              Go Shopping
-            </a>
+            <Link
+              to="/Shop"
+              target=""
+              rel="noopener noreferrer"
+              className="btn-primary btn-info text-white fw-bold px-4 me-4"
+              data-aos="fade"
+              data-aos-easing="ease-in-out"
+              data-aos-delay="1500"
+              data-aos-duration="1000">
+              Shop Now !
+            </Link>
           </div>
         </div>
       </section>
@@ -257,7 +273,7 @@ function Home() {
               </h4>
               <img
                 className="ms-5"
-                src="/Assets/Images/pgdivider.png"
+                src="https://via.placeholder.com/150"
                 alt="pg divider"
               />
             </div>
@@ -292,28 +308,28 @@ function Home() {
               <div className="row g-4 justify-content-center align-items-center">
                 <div className="col-md-6">
                   <img
-                    src="./Assets/Images/Frame 499 (1).png"
+                    src="https://via.placeholder.com/150"
                     className=""
                     alt="client 1"
                   />
                 </div>
                 <div className="col-md-6">
                   <img
-                    src="./Assets/Images/Frame 499 (1).png"
+                    src="https://via.placeholder.com/150"
                     className=""
                     alt="client 2"
                   />
                 </div>
                 <div className="col-md-6">
                   <img
-                    src="./Assets/Images/Frame 499 (1).png"
+                    src="https://via.placeholder.com/150"
                     className=""
                     alt="client 3"
                   />
                 </div>
                 <div className="col-md-6">
                   <img
-                    src="./Assets/Images/Frame 499 (1).png"
+                    src="https://via.placeholder.com/150"
                     className=""
                     alt="client 4"
                   />
@@ -329,7 +345,7 @@ function Home() {
                   <div className="carousel-item active">
                     <div className="d-flex flex-column align-items-start text-center text-md-start">
                       <img
-                        src="..."
+                        src="https://via.placeholder.com/150"
                         alt="Avatar 1"
                         className="avatar me-md-4 mb-3 mb-md-0"
                         style={{
@@ -344,14 +360,14 @@ function Home() {
                         sit incidunt perspiciatis illum, fugiat distinctio
                         recusandae. Facilis, provident magnam.
                       </p>
-                      <h5>Jonh Dow</h5>
+                      <h5>Snow White</h5>
                     </div>
                   </div>
 
                   <div className="carousel-item">
                     <div className="d-flex flex-column align-items-start text-center text-md-start">
                       <img
-                        src="..."
+                        src="https://via.placeholder.com/150"
                         alt="Avatar 2"
                         className="avatar me-md-4 mb-3 mb-md-0"
                         style={{
@@ -366,14 +382,14 @@ function Home() {
                         sit incidunt perspiciatis illum, fugiat distinctio
                         recusandae. Facilis, provident magnam.
                       </p>
-                      <h5>Jonh Dow</h5>
+                      <h5>Mary Spencer</h5>
                     </div>
                   </div>
 
                   <div className="carousel-item">
                     <div className="d-flex flex-column align-items-start text-center text-md-start">
                       <img
-                        src="..."
+                        src="https://via.placeholder.com/150"
                         alt="Avatar 3"
                         className="avatar me-md-4 mb-3 mb-md-0"
                         style={{
@@ -388,7 +404,7 @@ function Home() {
                         sit incidunt perspiciatis illum, fugiat distinctio
                         recusandae. Facilis, provident magnam.
                       </p>
-                      <h5>Jonh Dow</h5>
+                      <h5>John Dow</h5>
                     </div>
                   </div>
                 </div>
@@ -413,7 +429,7 @@ function Home() {
               </h4>
               <img
                 className="ms-5"
-                src="/Assets/Images/pgdivider.png"
+                src="https://via.placeholder.com/150"
                 alt="pg divider"
               />
             </div>
@@ -443,16 +459,22 @@ function Home() {
           <h3>Our Insta Shots</h3>
           <div className="row g-4 justify-content-center mt-2">
             <div className="col-md-3 ">
-              <img src="./Assets/Images/Insta.png" alt="insta shot" />
+              <img src="https://via.placeholder.com/150" alt="insta-shot-one" />
             </div>
             <div className="col-md-3 ">
-              <img src="./Assets/Images/Insta.png" alt="insta shot" />
+              <img src="https://via.placeholder.com/150" alt="insta-shot-two" />
             </div>
             <div className="col-md-3 ">
-              <img src="./Assets/Images/Insta.png" alt="insta shot" />
+              <img
+                src="https://via.placeholder.com/150"
+                alt="insta-shot-three"
+              />
             </div>
             <div className="col-md-3 ">
-              <img src="./Assets/Images/Insta.png" alt="insta shot" />
+              <img
+                src="https://via.placeholder.com/150"
+                alt="insta-shot-four"
+              />
             </div>
           </div>
           <div className="handle">
@@ -510,7 +532,7 @@ function Home() {
               </p>
               <Link
                 className="btn-primary btn-info text-white fw-bold px-4"
-                to="/...">
+                to="/Contact">
                 Contact Us !
               </Link>
             </div>

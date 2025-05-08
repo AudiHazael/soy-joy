@@ -14,7 +14,7 @@ function Footer() {
         <div className="row d-flex justify-content-between">
           <div className="col-md-4 col-12 p-4 m-0 footHero">
             <a className="navbar-brand" href="index.html">
-              <img src="/Images/Logo-Image.png" alt="Logo" className="logo" />
+              <img src="https://via.placeholder.com/150" alt="Logo" className="logo" />
             </a>
             <h3>SoyJoy Milk</h3>
             <p>

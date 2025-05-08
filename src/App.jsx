@@ -17,13 +17,13 @@ function App() {
       <Route path="/blog" element={<Blog />} />
       <Route path="/shop" element={<Shop />} />
 
-      {/* Optional nested-like routes for access from other pages */}
-      <Route path="/about/shop" element={<Shop />} />
+
+      {/* <Route path="/about/shop" element={<Shop />} />
       <Route path="/about/contact" element={<Contact />} />
       <Route path="/varieties/shop" element={<Shop />} />
       <Route path="/varieties/contact" element={<Contact />} />
       <Route path="/blog/contact" element={<Contact />} />
-      <Route path="/blog/shop" element={<Shop />} />
+      <Route path="/blog/shop" element={<Shop />} /> */}
     </Routes>
   );
 }

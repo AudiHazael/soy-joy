@@ -13,9 +13,9 @@ function Contact() {
         <title>SoyJoy | Sip Pure Joy with Soy </title>
         <meta
           name="description"
-          content="Master the EBC Forex Strategy with WealthWave Global Network and achieve financial freedom."
+          content="SoyJoy offers delicious, plant-based soy milk options for a healthy and joyful lifestyle."
         />
-        <link rel="canonical" href="https://your-website.com/wealthwave" />
+        <link rel="canonical" href="https://soy-joy.vercel.app/" />
       </Helmet>
 
       <Navbar />
@@ -32,7 +32,7 @@ function Contact() {
             Reach Out to Us
           </p>
           <Link
-            to="./Shop"
+            to="/Shop"
             target=""
             rel="noopener noreferrer"
             className="btn-primary btn-info text-white fw-bold px-4 me-4"

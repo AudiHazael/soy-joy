@@ -11,8 +11,11 @@ function Varieties() {
     <div>
       <Helmet>
         <title>SoyJoy | Sip Pure Joy with Soy </title>
-        <meta name="description" content="" />
-        <link rel="canonical" href="https://your-website.com/wealthwave" />
+        <meta
+          name="description"
+          content="SoyJoy offers delicious, plant-based soy milk options for a healthy and joyful lifestyle."
+        />
+        <link rel="canonical" href="https://soy-joy.vercel.app/" />
       </Helmet>
 
       <Navbar />
@@ -36,7 +39,7 @@ function Varieties() {
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-md-4">
-              <img src="..." alt="flavor image 1" />
+              <img src="https://via.placeholder.com/150" alt="flavor image 1" />
             </div>
             <div className="col-md-6">
               <h5>Lorem ipsum.</h5>
@@ -50,7 +53,7 @@ function Varieties() {
           </div>
           <div className="row justify-content-center">
             <div className="col-md-4">
-              <img src="..." alt="flavor image 1" />
+              <img src="https://via.placeholder.com/150" alt="flavor image 1" />
             </div>
             <div className="col-md-6">
               <h5>Lorem ipsum.</h5>
@@ -64,7 +67,7 @@ function Varieties() {
           </div>
           <div className="row justify-content-center">
             <div className="col-md-4">
-              <img src="..." alt="flavor image 1" />
+              <img src="https://via.placeholder.com/150" alt="flavor image 1" />
             </div>
             <div className="col-md-6">
               <h5>Lorem ipsum.</h5>
@@ -78,7 +81,7 @@ function Varieties() {
           </div>
           <div className="row justify-content-center">
             <div className="col-md-4">
-              <img src="..." alt="flavor image 1" />
+              <img src="https://via.placeholder.com/150" alt="flavor image 1" />
             </div>
             <div className="col-md-6">
               <h5>Lorem ipsum.</h5>
@@ -92,7 +95,7 @@ function Varieties() {
           </div>
           <div className="row justify-content-center">
             <div className="col-md-4">
-              <img src="..." alt="flavor image 1" />
+              <img src="https://via.placeholder.com/150" alt="flavor image 1" />
             </div>
             <div className="col-md-6">
               <h5>Lorem ipsum.</h5>

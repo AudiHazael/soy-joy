@@ -13,9 +13,9 @@ function About() {
         <title>SoyJoy | Sip Pure Joy with Soy </title>
         <meta
           name="description"
-          content="Master the EBC Forex Strategy with WealthWave Global Network and achieve financial freedom."
+          content="SoyJoy offers delicious, plant-based soy milk options for a healthy and joyful lifestyle."
         />
-        <link rel="canonical" href="https://your-website.com/wealthwave" />
+        <link rel="canonical" href="https://soy-joy.vercel.app/" />
       </Helmet>
 
       <Navbar />
@@ -39,7 +39,7 @@ function About() {
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-md-4 col-12">
-              <img src="..." alt="about us image" />
+              <img src="https://via.placeholder.com/150" alt="about us image" />
             </div>
             <div className="col-md-8">
               <h4>Lorem ipsum dolor sit amet consectetur adipisicing.</h4>
