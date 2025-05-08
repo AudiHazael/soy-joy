@@ -16,14 +16,6 @@ function App() {
       <Route path="/varieties" element={<Varieties />} />
       <Route path="/blog" element={<Blog />} />
       <Route path="/shop" element={<Shop />} />
-
-
-      {/* <Route path="/about/shop" element={<Shop />} />
-      <Route path="/about/contact" element={<Contact />} />
-      <Route path="/varieties/shop" element={<Shop />} />
-      <Route path="/varieties/contact" element={<Contact />} />
-      <Route path="/blog/contact" element={<Contact />} />
-      <Route path="/blog/shop" element={<Shop />} /> */}
     </Routes>
   );
 }
