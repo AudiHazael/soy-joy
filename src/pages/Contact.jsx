@@ -32,7 +32,7 @@ function Contact() {
             Reach Out to Us
           </p>
           <Link
-            to="/Shop"
+            to="./Shop"
             target=""
             rel="noopener noreferrer"
             className="btn-primary btn-info text-white fw-bold px-4 me-4"

@@ -343,37 +343,16 @@ function Home() {
                 data-bs-ride="carousel">
                 <div className="carousel-inner">
                   <div className="carousel-item active">
-                    <div className="d-flex flex-column align-items-start text-center text-md-start">
+                    <div className="">
                       <img
                         src="https://via.placeholder.com/150"
                         alt="Avatar 1"
-                        className="avatar me-md-4 mb-3 mb-md-0"
+                        className="avatar"
                         style={{
-                          width: "50px",
-                          height: "50px",
+                          width: "60px",
+                          height: "60px",
                           borderRadius: "50%",
-                        }}
-                      />
-                      <p className="m-0">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Consequuntur repudiandae nam excepturi odit earum illo
-                        sit incidunt perspiciatis illum, fugiat distinctio
-                        recusandae. Facilis, provident magnam.
-                      </p>
-                      <h5>Snow White</h5>
-                    </div>
-                  </div>
-
-                  <div className="carousel-item">
-                    <div className="d-flex flex-column align-items-start text-center text-md-start">
-                      <img
-                        src="https://via.placeholder.com/150"
-                        alt="Avatar 2"
-                        className="avatar me-md-4 mb-3 mb-md-0"
-                        style={{
-                          width: "50px",
-                          height: "50px",
-                          borderRadius: "50%",
+                          marginBottom: "1rem",
                         }}
                       />
                       <p className="m-0">
@@ -387,15 +366,16 @@ function Home() {
                   </div>
 
                   <div className="carousel-item">
-                    <div className="d-flex flex-column align-items-start text-center text-md-start">
+                    <div className="">
                       <img
                         src="https://via.placeholder.com/150"
-                        alt="Avatar 3"
-                        className="avatar me-md-4 mb-3 mb-md-0"
+                        alt="Avatar 2"
+                        className="avatar"
                         style={{
-                          width: "50px",
-                          height: "50px",
+                          width: "60px",
+                          height: "60px",
                           borderRadius: "50%",
+                          marginBottom: "1rem",
                         }}
                       />
                       <p className="m-0">
@@ -404,7 +384,30 @@ function Home() {
                         sit incidunt perspiciatis illum, fugiat distinctio
                         recusandae. Facilis, provident magnam.
                       </p>
-                      <h5>John Dow</h5>
+                      <h5>John Doe</h5>
+                    </div>
+                  </div>
+
+                  <div className="carousel-item">
+                    <div className="">
+                      <img
+                        src="https://via.placeholder.com/150"
+                        alt="Avatar 3"
+                        className="avatar"
+                        style={{
+                          width: "60px",
+                          height: "60px",
+                          borderRadius: "50%",
+                          marginBottom: "1rem",
+                        }}
+                      />
+                      <p className="m-0">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Consequuntur repudiandae nam excepturi odit earum illo
+                        sit incidunt perspiciatis illum, fugiat distinctio
+                        recusandae. Facilis, provident magnam.
+                      </p>
+                      <h5>James Casidy</h5>
                     </div>
                   </div>
                 </div>
@@ -532,7 +535,7 @@ function Home() {
               </p>
               <Link
                 className="btn-primary btn-info text-white fw-bold px-4"
-                to="/Contact">
+                to="/">
                 Contact Us !
               </Link>
             </div>

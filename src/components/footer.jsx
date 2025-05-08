@@ -3,7 +3,7 @@ import "../styles/styles.scss";
 
 function Footer() {
   return (
-    <section className="footer pt-4">
+    <section className="footer p-4">
       <div className="container pt-4 d-flex flex-column justify-content-between align-items-center">
         <div
           className="socials"
@@ -12,9 +12,9 @@ function Footer() {
           data-aos-delay="1000"></div>
 
         <div className="row d-flex justify-content-between">
-          <div className="col-md-4 col-12 p-4 m-0 footHero">
+          <div className="col-md-4 col-12 m-0 footHero">
             <a className="navbar-brand" href="index.html">
-              <img src="https://via.placeholder.com/150" alt="Logo" className="logo" />
+              <img src="/Images/Logo-Image.png" alt="Logo" className="logo" />
             </a>
             <h3>SoyJoy Milk</h3>
             <p>
