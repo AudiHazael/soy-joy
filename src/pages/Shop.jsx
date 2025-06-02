@@ -64,7 +64,6 @@ function Shop() {
                 enjoy the pure joy of soy, delivered right to your doorstep.
                 Start your journey to healthier, happier living today!
               </p>
-              <img src="https://via.placeholder.com/150" alt="product-sample" />
             </div>
             <div className="col-md-4 store ms-2 d-flex flex-column justify-content-center align-items-center">
               <div className="shop-1 pb-4">
@@ -73,7 +72,7 @@ function Shop() {
                   <a href="#">
                     <div className="d-flex">
                       <img
-                        src="https://via.placeholder.com/150"
+                        src="/images/jumia.png"
                         alt="jumia logo"
                         title="jumia by Kelvin Kinuthia on IconScout"
                         className="me-3"
@@ -91,7 +90,7 @@ function Shop() {
                   <a href="#">
                     <div className="d-flex">
                       <img
-                        src="https://via.placeholder.com/150"
+                        src="/public/images/amazon.png"
                         alt="amazon logo"
                         title="Amazon by Pixel Icons on IconScout"
                         className="me-3"

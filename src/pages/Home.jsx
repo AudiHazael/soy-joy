@@ -34,7 +34,8 @@ function Home() {
             data-aos="fade-right"
             data-aos-delay="1000"
             data-aos-duration="800">
-            Experience the creamy taste of health and happiness in every sip.
+            Experience the rich, creamy taste of health and happiness in every
+            sip.
           </p>
           <HeroButton />
         </div>
@@ -55,7 +56,7 @@ function Home() {
               </h3>
               <img
                 className="ms-5"
-                src="https://via.placeholder.com/150"
+                src="/images/pgdivider.png"
                 alt="pg divider"
               />
             </div>
@@ -66,11 +67,11 @@ function Home() {
               data-aos-delay="2000"
               data-aos-duration="1000">
               <p>
-                SoyJoy milk is a great source of high-quality plant-based
-                protein, essential vitamins like B-complex, and minerals such as
-                calcium, magnesium, and potassium. It’s often fortified with
-                additional calcium and vitamin D, making it a nutritious
-                alternative to dairy milk.
+                SoyJoy milk is the ultimate game-changer for your daily
+                nutrition! Packed with powerhouse protein, brain-boosting B
+                vitamins, bone-strengthening calcium, magnesium, and potassium,
+                plus vitamin D for immune support - it's the perfect dairy-free
+                upgrade for a healthier, happier you!
               </p>
             </div>
           </div>
@@ -79,7 +80,7 @@ function Home() {
 
       <section className="py-5 varieties">
         <div
-          className="container text-center"
+          className="container"
           data-aos="fade"
           data-aos-easing="ease-in-out"
           data-aos-delay="2500"
@@ -95,15 +96,14 @@ function Home() {
             <div className="col">
               <div className="card h-100 shadow-sm">
                 <img
-                  src="https://via.placeholder.com/150"
+                  src="/images/sojoy-classic.png"
                   className="card-img-top"
                   alt="Classic Soy Milk"
                 />
-                <div className="card-body text-center">
+                <div className="card-body">
                   <h3 className="card-title mb-3">SoyJoy Classic</h3>
                   <p className="card-text">
-                    The rich and creamy original soy milk for everyday
-                    enjoyment.
+                    The rich, creamy soy goodness for everyday delight.
                   </p>
                 </div>
               </div>
@@ -113,11 +113,11 @@ function Home() {
             <div className="col">
               <div className="card h-100 shadow-sm">
                 <img
-                  src="https://via.placeholder.com/150"
+                  src="/images/soyjoy-vanilla2.png"
                   className="card-img-top"
                   alt="Vanilla Soy Milk"
                 />
-                <div className="card-body text-center">
+                <div className="card-body">
                   <h3 className="card-title mb-3">SoyJoy Vanilla</h3>
                   <p className="card-text">
                     A sweet and aromatic twist for a smooth, delightful
@@ -131,33 +131,100 @@ function Home() {
             <div className="col">
               <div className="card h-100 shadow-sm">
                 <img
-                  src="https://via.placeholder.com/150"
+                  src="/images/soyjoy-chocolate.png"
                   className="card-img-top"
                   alt="Chocolate Soy Milk"
                 />
-                <div className="card-body text-center">
+                <div className="card-body">
                   <h3 className="card-title mb-3">SoyJoy Chocolate</h3>
                   <p className="card-text">
-                    Indulge in the rich taste of chocolate blended with
-                    nutritious soy milk.
+                    Rich chocolate meets nutritious soy milk - indulge with
+                    SoyJoy Chocolate!
                   </p>
                 </div>
               </div>
             </div>
 
-            {/* Card: Unsweetened Soy Milk */}
+            {/* Card:SoyJoy Coconut */}
             <div className="col">
               <div className="card h-100 shadow-sm">
                 <img
-                  src="https://via.placeholder.com/150"
+                  src="/images/soyjoy-coconut.png"
                   className="card-img-top"
                   alt="Unsweetened Soy Milk"
                 />
-                <div className="card-body text-center">
-                  <h3 className="card-title mb-3">SoyJoy Unsweetened</h3>
+                <div className="card-body">
+                  <h3 className="card-title mb-3">SoyJoy Coconut</h3>
                   <p className="card-text">
-                    Pure soy goodness with no added sugars – perfect for
-                    health-conscious choices.
+                    Refreshing coconut flavor in nutritious soy milk
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Card:SoyJoy Peach */}
+            <div className="col">
+              <div className="card h-100 shadow-sm">
+                <img
+                  src="/images/soyjoy-peach.png"
+                  className="card-img-top"
+                  alt="Unsweetened Soy Milk"
+                />
+                <div className="card-body">
+                  <h3 className="card-title mb-3">SoyJoy Peach</h3>
+                  <p className="card-text">
+                    Sweet peach flavor in refreshing soy milk.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Card:SoyJoy Strawberry */}
+            <div className="col">
+              <div className="card h-100 shadow-sm">
+                <img
+                  src="/images/soyjoy-strawberry2.png"
+                  className="card-img-top"
+                  alt="Unsweetened Soy Milk"
+                />
+                <div className="card-body ">
+                  <h3 className="card-title mb-3">SoyJoy Strawberry</h3>
+                  <p className="card-text">
+                    Berry delightful, sweet & fruity flavor in soy milk.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Card:SoyJoy Almond */}
+            <div className="col">
+              <div className="card h-100 shadow-sm">
+                <img
+                  src="/images/soyjoy-almond.png"
+                  className="card-img-top"
+                  alt="Unsweetened Soy Milk"
+                />
+                <div className="card-body">
+                  <h3 className="card-title mb-3">SoyJoy Almond</h3>
+                  <p className="card-text">
+                    Smooth nutty goodness in soy milk.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Card:SoyJoy Hazaelnut */}
+            <div className="col">
+              <div className="card h-100 shadow-sm">
+                <img
+                  src="/images/soyjoy-hazelnut.png"
+                  className="card-img-top"
+                  alt="Unsweetened Soy Milk"
+                />
+                <div className="card-body ">
+                  <h3 className="card-title mb-3">SoyJoy Hazelnut</h3>
+                  <p className="card-text">
+                    Nutty perfection, rich hazelnut flavor in soy milk.
                   </p>
                 </div>
               </div>
@@ -197,46 +264,42 @@ function Home() {
         data-aos-delay="1500">
         <div className="container text-center">
           <div className="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-4 g-4 justify-content-center">
-            {/* Classic Soy Milk */}
             <div className="col">
               <div className="card h-100 shadow-sm">
                 <img
-                  src="https://via.placeholder.com/150"
+                  src="/images/soyjoy-peach.png"
                   className="card-img-top"
-                  alt="Classic Soy Milk"
+                  alt="soyjoy peach"
                 />
               </div>
             </div>
 
-            {/* Vanilla Soy Milk */}
             <div className="col">
               <div className="card h-100 shadow-sm">
                 <img
-                  src="https://via.placeholder.com/150"
+                  src="/images/soyjoy-almond.png"
                   className="card-img-top"
-                  alt="Vanilla Soy Milk"
+                  alt="soyjoy almond"
                 />
               </div>
             </div>
 
-            {/* Chocolate Soy Milk */}
             <div className="col">
               <div className="card h-100 shadow-sm">
                 <img
-                  src="https://via.placeholder.com/150"
+                  src="/images/soyjoy-chocolate.png"
                   className="card-img-top"
-                  alt="Chocolate Soy Milk"
+                  alt="soyjoy chocolate"
                 />
               </div>
             </div>
 
-            {/* Unsweetened Soy Milk */}
             <div className="col">
               <div className="card h-100 shadow-sm">
                 <img
-                  src="https://via.placeholder.com/150"
+                  src="/images/soyjoy-strawberry3.png"
                   className="card-img-top"
-                  alt="Unsweetened Soy Milk"
+                  alt="soyjoy strawberry"
                 />
               </div>
             </div>
@@ -273,7 +336,7 @@ function Home() {
               </h4>
               <img
                 className="ms-5"
-                src="https://via.placeholder.com/150"
+                src="/images/pgdivider.png"
                 alt="pg divider"
               />
             </div>
@@ -284,10 +347,11 @@ function Home() {
               data-aos-delay="2000"
               data-aos-duration="1000">
               <p>
-                SoyJoy is naturally lactose-free, making it an excellent choice
-                for people with lactose intolerance or those following a vegan
-                lifestyle. It’s also low in saturated fat, promoting heart
-                health.
+                SoyJoy is more than just delicious - it's naturally
+                lactose-free, making it a perfect fit for those with lactose
+                intolerance or a vegan lifestyle. Plus, it's low in saturated
+                fat, so you can sip with confidence and sip your way to a
+                healthier heart. <br /> <strong>Sip Pure Joy with Soy</strong>!"
               </p>
             </div>
           </div>
@@ -432,7 +496,7 @@ function Home() {
               </h4>
               <img
                 className="ms-5"
-                src="https://via.placeholder.com/150"
+                src="/images/pgdivider.png"
                 alt="pg divider"
               />
             </div>
