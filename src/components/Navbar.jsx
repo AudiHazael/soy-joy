@@ -41,7 +41,7 @@ function Navbar() {
           </li>
           <li className="nav-item">
             <Link className="nav-link" to="/Varieties">
-              Varieties
+              Flavours
             </Link>
           </li>
           <li className="nav-item">
