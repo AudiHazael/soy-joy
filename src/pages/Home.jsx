@@ -41,7 +41,7 @@ function Home() {
         </div>
       </section>
 
-      <section className="facts pt-5">
+      <section className="facts pt-5 pb-5">
         <div className="container">
           <div className="row justify-content-center">
             <div
@@ -85,13 +85,13 @@ function Home() {
           data-aos-easing="ease-in-out"
           data-aos-delay="2500"
           data-aos-duration="1000">
-          <h2 className="mb-4">Discover Our Delicious Varieties</h2>
+          <h2 className="mb-2">Our Delicious Varieties</h2>
           <p className="mb-5">
             From creamy classics to exciting flavors, we have something for
             everyone!
           </p>
 
-          <div className="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-4 g-4 justify-content-center">
+          <div className="row row-cols-1 row row-cols-2 row-cols-md-2 row-cols-lg-4 g-4 justify-content-center">
             {/* Card: Classic Soy Milk */}
             <div className="col">
               <div className="card h-100 shadow-sm">
@@ -263,11 +263,11 @@ function Home() {
         data-aos-easing="ease-in-out"
         data-aos-delay="1500">
         <div className="container text-center">
-          <div className="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-4 g-4 justify-content-center">
+          <div className="row row-cols-1 row row-cols-2 row-cols-md-2 row-cols-lg-4 g-4 justify-content-center">
             <div className="col">
               <div className="card h-100 shadow-sm">
                 <img
-                  src="/images/soyjoy-peach.png"
+                  src="/images/shop-peach.jpeg"
                   className="card-img-top"
                   alt="soyjoy peach"
                 />
@@ -277,7 +277,7 @@ function Home() {
             <div className="col">
               <div className="card h-100 shadow-sm">
                 <img
-                  src="/images/soyjoy-almond.png"
+                  src="/images/shop-almond.jpeg"
                   className="card-img-top"
                   alt="soyjoy almond"
                 />
@@ -287,7 +287,7 @@ function Home() {
             <div className="col">
               <div className="card h-100 shadow-sm">
                 <img
-                  src="/images/soyjoy-chocolate.png"
+                  src="/images/shop-chocolate.jpeg"
                   className="card-img-top"
                   alt="soyjoy chocolate"
                 />
@@ -507,9 +507,9 @@ function Home() {
               data-aos-delay="2000"
               data-aos-duration="1000">
               <p>
-                Producing SoyJoy has a smaller environmental footprint compared
-                to dairy milk. It requires less water and land and emits fewer
-                greenhouse gases, making it an eco-conscious beverage option.
+                SoyJoy is a planet-friendly choice? Producing SoyJoy uses less
+                water, land, and emits fewer greenhouse gases compared to dairy
+                milk. Make the switch to SoyJoy for a greener future!
               </p>
             </div>
           </div>

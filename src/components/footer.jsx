@@ -18,7 +18,8 @@ function Footer() {
             </a>
             <h3>SoyJoy Milk</h3>
             <p>
-              Experience the creamy taste of health and happiness in every sip.
+              Experience the rich, creamy taste of health and happiness in every
+              sip.
             </p>
           </div>
 

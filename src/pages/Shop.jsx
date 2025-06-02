@@ -68,39 +68,36 @@ function Shop() {
             <div className="col-md-4 store ms-2 d-flex flex-column justify-content-center align-items-center">
               <div className="shop-1 pb-4">
                 <h3>Buy on Jumia</h3>
-                <button type="button" className="btn-primary">
-                  <a href="#">
-                    <div className="d-flex">
-                      <img
-                        src="/images/jumia.png"
-                        alt="jumia logo"
-                        title="jumia by Kelvin Kinuthia on IconScout"
-                        className="me-3"
-                        width="30"
-                        height="30"
-                      />
-                      <span>Jumia</span>
-                    </div>
-                  </a>
-                </button>
+                <a
+                  href="https://www.jumia.com" // Replace with your real link
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn-jumia d-inline-flex align-items-center gap-2">
+                  <img
+                    src="/images/jumia.png"
+                    alt="Jumia logo"
+                    width="24"
+                    height="24"
+                  />
+                  <span>Shop on Jumia</span>
+                </a>
               </div>
+
               <div className="shop-2">
                 <h3>Buy on Amazon</h3>
-                <button type="button" className="btn-primary">
-                  <a href="#">
-                    <div className="d-flex">
-                      <img
-                        src="/public/images/amazon.png"
-                        alt="amazon logo"
-                        title="Amazon by Pixel Icons on IconScout"
-                        className="me-3"
-                        width="30"
-                        height="30"
-                      />
-                      <span>Amazon</span>
-                    </div>
-                  </a>
-                </button>
+                <a
+                  href="https://www.amazon.com" // Replace with your real link
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn-amazon d-inline-flex align-items-center gap-2">
+                  <img
+                    src="/images/amazon.png"
+                    alt="Amazon logo"
+                    width="24"
+                    height="24"
+                  />
+                  <span>Shop on Amazon</span>
+                </a>
               </div>
             </div>
           </div>
