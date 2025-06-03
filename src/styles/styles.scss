@@ -70,12 +70,13 @@ $textLarge: 16px;
 @mixin primaryButton {
   padding: 12px 28px;
   font-size: 1rem;
+  text-decoration: none;
   background-color: #f5b315;
   color: #000;
   border: none;
   border-radius: 8px;
   cursor: pointer;
-  font-weight: 600;
+  font-weight: 400;
   letter-spacing: 0.5px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   transition: background-color 0.3s ease, transform 0.2s ease,
@@ -96,12 +97,13 @@ $textLarge: 16px;
 @mixin secondaryButton {
   padding: 12px 28px;
   font-size: 1rem;
+  text-decoration: none;
   background-color: transparent;
   color: #fff;
   border: 2px solid #f5b315;
   border-radius: 8px;
   cursor: pointer;
-  font-weight: 600;
+  font-weight: 400;
   letter-spacing: 0.5px;
   transition: all 0.3s ease;
 
@@ -211,15 +213,11 @@ nav {
   .btn-primary {
     @include primaryButton();
     font-size: 1.75rem;
-
-    text-decoration: none;
   }
 
   .btn-secondary {
     @include secondaryButton;
     font-size: 1.75rem;
-
-    text-decoration: none;
   }
 }
 
