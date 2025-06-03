@@ -6,7 +6,7 @@ function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark px-3">
       <Link className="navbar-brand" to="/home">
-        <img src="/public/images/logo-dark-noBg.png" alt="logo image" />
+        <img src="/images/logo-dark-noBg.png" alt="logo image" />
       </Link>
 
       {/* Hamburger toggle button */}
