@@ -23,7 +23,7 @@ function Home() {
       <Navbar />
 
       <section className="hero">
-        <div className="container">
+        <div className="container text-center d-flex flex-column justify-content-center align-items-center">
           <h1 data-aos="fade-down" data-aos-duration="1000">
             SOYJOY
           </h1>
