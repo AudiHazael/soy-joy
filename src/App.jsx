@@ -5,6 +5,7 @@ import Contact from "./pages/Contact";
 import Varieties from "./pages/Varieties";
 import Blog from "./pages/Blog";
 import Shop from "./pages/Shop";
+// import blogone from "./pages/Blogs/blogOne";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Route path="/varieties" element={<Varieties />} />
       <Route path="/blog" element={<Blog />} />
       <Route path="/shop" element={<Shop />} />
+      <Route path="/blogOne" element={<blogone />} />
     </Routes>
   );
 }
