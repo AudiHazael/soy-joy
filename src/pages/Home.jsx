@@ -1,18 +1,13 @@
 import React from "react";
 import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";
-import {
-  FaEnvelope,
-  FaPhoneAlt,
-  FaMapMarkerAlt,
-} from "react-icons/fa";
+import { FaEnvelope, FaPhoneAlt, FaMapMarkerAlt } from "react-icons/fa";
 import "../styles/styles.scss";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import Footer from "../components/footer";
 import Navbar from "../components/Navbar";
 import AccordionFlush from "../components/accordion";
 import HeroButton from "../components/HeroButton";
-
 function Home() {
   return (
     <div>

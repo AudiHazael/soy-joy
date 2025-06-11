@@ -142,18 +142,23 @@ $textLarge: 16px;
 
 nav {
   // background-image: url("/images/heroBgOne.png");
-  background: #b3aea3;
+  background: #161515;
 
   .navbar-brand {
     img {
-      width: 75px;
+      width: 50px;
     }
+  }
+
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=UTF8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
   }
 
   .navbar-nav li.nav-item a.nav-link {
     color: #fff;
     text-align: center;
     font-family: Inria Sans;
+    padding-left: 3rem;
     font-size: 1.5rem;
     font-style: normal;
     font-weight: 400;
@@ -194,30 +199,30 @@ nav {
 
   h1 {
     color: #fff;
-    font-size: 3rem;
+    font-size: 3.5rem;
     font-weight: bold;
     margin-bottom: 10px;
   }
 
   h2 {
     color: #fddd92;
-    font-size: 2.5rem;
+    font-size: 3rem;
     margin-bottom: 20px;
   }
 
   p {
     @include paragraph();
-    font-size: 2.25rem;
+    font-size: 2.5rem;
   }
 
   .btn-primary {
     @include primaryButton();
-    font-size: 1.25rem;
+    font-size: 1.5rem;
   }
 
   .btn-secondary {
     @include secondaryButton;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
   }
 }
 
@@ -593,29 +598,24 @@ p {
       display: none;
     }
 
-    // background-image: url("/images/heroBgMobile.png");
-    // background-size: cover;
-    // background-position: center;
-    // height: 75vh;
-
     h1 {
-      font-size: 3rem;
+      font-size: 3.25rem;
     }
 
     h2 {
-      font-size: 2rem;
+      font-size: 2.25rem;
     }
 
     p {
-      font-size: 1.5rem;
+      font-size: 1.75rem;
     }
 
     .btn-primary {
-      font-size: 1.2rem;
+      font-size: 1.25rem;
     }
 
     .btn-secondary {
-      font-size: 1.2rem;
+      font-size: 1.25rem;
     }
   }
 
