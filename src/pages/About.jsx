@@ -20,7 +20,7 @@ function About() {
 
       <Navbar />
 
-      <section className="hero">
+      <section className="heroTwo hero">
         <div className="container">
           <h2 data-aos="fade-up" data-aos-duration="1000">
             About Us

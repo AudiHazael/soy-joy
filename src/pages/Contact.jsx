@@ -1,6 +1,7 @@
 import React from "react";
 import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";
+import { FaEnvelope, FaPhoneAlt, FaMapMarkerAlt } from "react-icons/fa";
 import "../styles/styles.scss";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import Navbar from "../components/Navbar";
@@ -20,7 +21,7 @@ function Contact() {
 
       <Navbar />
 
-      <section className="hero">
+      <section className="heroTwo hero">
         <div className="container">
           <h2 data-aos="fade-up" data-aos-duration="1000">
             Contact Us
@@ -49,12 +50,33 @@ function Contact() {
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-md-6 col-12 justify-content-center contact-info">
-              <p>
-                132 Dartmouth Street Boston, Massachusetts <br /> 02156 United
-                States
-              </p>
-              <p>+1012 3456 789</p>
-              <p>demo@gmail.com</p>
+              <div className="d-flex">
+                <FaEnvelope
+                  fontSize="2.25rem"
+                  color="#181717"
+                  className="pe-3"
+                />
+                <p>
+                  Plot 15, Jesus Avenue, Simawa, Lukosi, <br /> Sagamu, Ogun
+                  State
+                </p>
+              </div>
+              <div className="d-flex">
+                <FaPhoneAlt
+                  fontSize="2.25rem"
+                  color="#181717"
+                  className="pe-3"
+                />
+                <p className="pt-2">+234 703 940 4909</p>
+              </div>
+              <div className="d-flex">
+                <FaMapMarkerAlt
+                  fontSize="2.25rem"
+                  color="#181717"
+                  className="pe-3"
+                />
+                <p className="pt-2">hazaeldevs@gmail.com</p>
+              </div>
             </div>
             <div className="col-md-6">
               <form

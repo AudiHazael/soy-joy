@@ -141,13 +141,12 @@ $textLarge: 16px;
 }
 
 nav {
-  .navbar {
-    background: rgba(0, 0, 0, 0.404);
-  }
+  // background-image: url("/images/heroBgOne.png");
+  background: #b3aea3;
 
   .navbar-brand {
     img {
-      width: 50px;
+      width: 75px;
     }
   }
 
@@ -180,45 +179,53 @@ nav {
 }
 
 .hero {
+  .Two {
+    height: 50vh;
+  }
   background-image: url("/images/heroBg.png");
   background-size: cover;
   background-position: center;
-  height: 90vh;
+  height: 90dvh;
 
-  // background: rgba(0, 0, 0, 0.863);
-
-  padding: 50px;
+  // padding: 50px;
   display: flex;
   flex-direction: column;
   justify-content: center;
 
   h1 {
     color: #fff;
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: bold;
     margin-bottom: 10px;
   }
 
   h2 {
-    color: #f5b315;
-    font-size: 3rem;
+    color: #fddd92;
+    font-size: 2.5rem;
     margin-bottom: 20px;
   }
 
   p {
     @include paragraph();
-    font-size: 2.5rem;
+    font-size: 2.25rem;
   }
 
   .btn-primary {
     @include primaryButton();
-    font-size: 1.75rem;
+    font-size: 1.25rem;
   }
 
   .btn-secondary {
     @include secondaryButton;
-    font-size: 1.75rem;
+    font-size: 1.25rem;
   }
+}
+
+.heroTwo {
+  background-image: url("/images/heroBg.png");
+  background-size: cover;
+  background-position: center;
+  height: 50dvh;
 }
 
 .facts {
@@ -582,11 +589,14 @@ p {
 @media (max-width: 767px) {
   .hero {
     padding: 1rem;
+    img {
+      display: none;
+    }
 
-    background-image: url("/images/heroBgMobile.png");
-    background-size: cover;
-    background-position: center;
-    height: 75vh;
+    // background-image: url("/images/heroBgMobile.png");
+    // background-size: cover;
+    // background-position: center;
+    // height: 75vh;
 
     h1 {
       font-size: 3rem;
@@ -601,11 +611,11 @@ p {
     }
 
     .btn-primary {
-      font-size: 1.5rem;
+      font-size: 1.2rem;
     }
 
     .btn-secondary {
-      font-size: 1.5rem;
+      font-size: 1.2rem;
     }
   }
 

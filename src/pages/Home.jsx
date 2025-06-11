@@ -1,6 +1,11 @@
 import React from "react";
 import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";
+import {
+  FaEnvelope,
+  FaPhoneAlt,
+  FaMapMarkerAlt,
+} from "react-icons/fa";
 import "../styles/styles.scss";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import Footer from "../components/footer";
@@ -22,22 +27,26 @@ function Home() {
 
       <Navbar />
 
-      <section className="hero">
-        <div className="container text-center d-flex flex-column justify-content-center align-items-center">
-          <h1 data-aos="fade-down" data-aos-duration="1000">
-            SOYJOY
-          </h1>
-          <h2 data-aos="fade-up" data-aos-duration="1000">
-            Sip Pure Joy with Soy
-          </h2>
-          <p
-            data-aos="fade-right"
-            data-aos-delay="1000"
-            data-aos-duration="800">
-            Experience the rich, creamy taste of health and happiness in every
-            sip.
-          </p>
-          <HeroButton />
+      <section className="hero One">
+        <div className="container  d-flex flex-column justify-content-center">
+          <div className="row justify-content-center align-items-center">
+            <div className="col-md-12">
+              <h1 data-aos="fade-down" data-aos-duration="1000">
+                SOYJOY
+              </h1>
+              <h2 data-aos="fade-up" data-aos-duration="1000">
+                Sip Pure Joy with Soy
+              </h2>
+              <p
+                data-aos="fade-right"
+                data-aos-delay="1000"
+                data-aos-duration="800">
+                Experience the rich, creamy taste of health and happiness in
+                every sip.
+              </p>
+              <HeroButton />
+            </div>
+          </div>
         </div>
       </section>
 
@@ -48,7 +57,7 @@ function Home() {
               className="col-md-3 d-flex"
               data-aos="fade"
               data-aos-easing="ease-in-out"
-              data-aos-delay="2000"
+              data-aos-delay="500"
               data-aos-duration="1000">
               <h3>
                 Did you <br />
@@ -64,7 +73,7 @@ function Home() {
               className="col-md-8"
               data-aos="fade"
               data-aos-easing="ease-in-out"
-              data-aos-delay="2000"
+              data-aos-delay="500"
               data-aos-duration="1000">
               <p>
                 SoyJoy milk is the ultimate game-changer for your daily
@@ -83,7 +92,7 @@ function Home() {
           className="container"
           data-aos="fade"
           data-aos-easing="ease-in-out"
-          data-aos-delay="2500"
+          data-aos-delay="500"
           data-aos-duration="1000">
           <h2 className="mb-2">Our Delicious Varieties</h2>
           <p className="mb-5">
@@ -251,7 +260,7 @@ function Home() {
         className="nudgets p-4"
         data-aos="zoom"
         data-aos-easing="ease-in-out"
-        data-aos-delay="1000">
+        data-aos-delay="500">
         <div className="container d-flex justify-content-center pt-4">
           <h2 className="text-center">PLANT BASED MILK FOR EVERYONE</h2>
         </div>
@@ -261,7 +270,7 @@ function Home() {
         className="py-5 shopping"
         data-aos="fade"
         data-aos-easing="ease-in-out"
-        data-aos-delay="1500">
+        data-aos-delay="500">
         <div className="container text-center">
           <div className="row row-cols-1 row row-cols-2 row-cols-md-2 row-cols-lg-4 g-4 justify-content-center">
             <div className="col">
@@ -328,7 +337,7 @@ function Home() {
               className="col-md-3 d-flex"
               data-aos="fade"
               data-aos-easing="ease-in-out"
-              data-aos-delay="2000"
+              data-aos-delay="500"
               data-aos-duration="1000">
               <h4>
                 Did <br />
@@ -344,7 +353,7 @@ function Home() {
               className="col-md-8"
               data-aos="fade"
               data-aos-easing="ease-in-out"
-              data-aos-delay="2000"
+              data-aos-delay="500"
               data-aos-duration="1000">
               <p>
                 SoyJoy is more than just delicious - it's naturally
@@ -365,7 +374,7 @@ function Home() {
           className="container"
           data-aos="fade"
           data-aos-easing="ease-in-out"
-          data-aos-delay="800">
+          data-aos-delay="500">
           <div className="row g-4 justify-content-center align-items-center">
             <h3>Our Customers</h3>
             <div className="col-md-4 images">
@@ -488,7 +497,7 @@ function Home() {
               className="col-md-3 d-flex"
               data-aos="fade"
               data-aos-easing="ease-in-out"
-              data-aos-delay="2000"
+              data-aos-delay="500"
               data-aos-duration="1000">
               <h4>
                 Did <br />
@@ -504,7 +513,7 @@ function Home() {
               className="col-md-8"
               data-aos="fade"
               data-aos-easing="ease-in-out"
-              data-aos-delay="2000"
+              data-aos-delay="500"
               data-aos-duration="1000">
               <p>
                 SoyJoy is a planet-friendly choice? Producing SoyJoy uses less
@@ -521,7 +530,7 @@ function Home() {
           className="container"
           data-aos="fade"
           data-aos-easing="ease-in-out"
-          data-aos-delay="2000"
+          data-aos-delay="500"
           data-aos-duration="1000">
           <h3>Our Insta Shots</h3>
           <div className="row g-4 justify-content-center mt-2">
@@ -561,7 +570,7 @@ function Home() {
             className="row justify-content-center subscribe pt-4 pb-4"
             data-aos="zoom-in"
             data-aos-easing="ease-in-out"
-            data-aos-delay="1500"
+            data-aos-delay="500"
             data-aos-duration="1000">
             <div className="col-md-12 pt-5 pb-5">
               <div className="row justify-content-center align-items-center">
@@ -589,7 +598,7 @@ function Home() {
             className="row justify-content-center distributor"
             data-aos="zoom-in"
             data-aos-easing="ease-in-out"
-            data-aos-delay="2000"
+            data-aos-delay="500"
             data-aos-duration="1000">
             <div className="col-md-12 text-center">
               <h3>Become a Distributor of SoyJoy</h3>

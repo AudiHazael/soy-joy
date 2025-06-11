@@ -20,7 +20,7 @@ function Shop() {
 
       <Navbar />
 
-      <section className="hero">
+      <section className="heroTwo hero">
         <div className="container">
           <h1 data-aos="fade-down" data-aos-duration="1000">
             SOYJOY
