@@ -3,6 +3,7 @@
 html {
   scroll-behavior: smooth;
   font-size: 75%;
+  background-color: #010101;
 }
 
 body {
@@ -12,7 +13,6 @@ body {
   font-size: 0.8rem;
   line-height: 1.6;
   color: #333;
-  background-color: #010101;
 }
 
 // Variables
@@ -142,7 +142,7 @@ $textLarge: 16px;
 
 nav {
   // background-image: url("/images/heroBgOne.png");
-  background: #161515;
+  background: #000000;
 
   .navbar-brand {
     img {
@@ -190,7 +190,7 @@ nav {
   background-image: url("/images/heroBg.png");
   background-size: cover;
   background-position: center;
-  height: 90dvh;
+  height: 95dvh;
 
   // padding: 50px;
   display: flex;
@@ -593,6 +593,7 @@ p {
 /* Styles for mobile devices (767px or smaller) */
 @media (max-width: 767px) {
   .hero {
+    background-image: url("/images/heroBgMobile.png");
     padding: 1rem;
     img {
       display: none;

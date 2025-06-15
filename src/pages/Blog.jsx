@@ -55,10 +55,13 @@ function Blog() {
             <div className="col-md-10 col-12 cards">
               <div className="row justify-content-start align-items-center p-2">
                 <div className="text">
-                  <h3>Lorem, ipsum dolor.</h3>
+                  <h3>The Soyjoy Journal</h3>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Iusto suscipit perferendis laboriosam dicta veritatis quam?
+                    Welcome to The Soyjoy Journal, where we explore the
+                    wonderful world of soy milk and soybeans. From recipes and
+                    product reviews to lifestyle tips and inspiration, we'll
+                    share our favorite stories and ideas about soy. Join us on
+                    this journey as we discover the joy of soy!
                   </p>
                 </div>
                 <div className="col-md-4 col- m-2 card h-100 shadow-sm">
@@ -68,7 +71,7 @@ function Blog() {
                       Unlock the Power of Soy: Discover the Amazing Health
                       Benefits of SoyJoy
                     </h5>
-                    <Link className=" card-text blog-link " to="/blogOne">
+                    <Link className=" card-text blog-link " to="/BlogOne">
                       <FaArrowRight
                         fontSize="2.25rem"
                         color="#181717"
@@ -85,7 +88,7 @@ function Blog() {
                     <h5 className="card-title mb-3">
                       Unlocking the Natural Benefits of SoyJoy
                     </h5>
-                    <Link className=" card-text blog-link " to="/blogTwo">
+                    <Link className=" card-text blog-link " to="/BlogTwo">
                       <FaArrowRight
                         fontSize="2.25rem"
                         color="#181717"
@@ -102,7 +105,7 @@ function Blog() {
                     <h5 className="card-title mb-3">
                       Why Partner with SoyJoy: Unlocking Growth and Impact
                     </h5>
-                    <Link className=" card-text blog-link " to="/blogThree">
+                    <Link className=" card-text blog-link " to="/BlogThree">
                       <FaArrowRight
                         fontSize="2.25rem"
                         color="#181717"
@@ -120,7 +123,7 @@ function Blog() {
                       Unlock the Power of SoyJoy: Revolutionize Your Daily
                       Nutrition!
                     </h5>
-                    <Link className=" card-text blog-link " to="/blogFour">
+                    <Link className=" card-text blog-link " to="/BlogFour">
                       <FaArrowRight
                         fontSize="2.25rem"
                         color="#181717"
@@ -137,7 +140,24 @@ function Blog() {
                     <h5 className="card-title mb-3">
                       Go Green with SoyJoy: The Planet-Friendly Choice
                     </h5>
-                    <Link className=" card-text blog-link " to="/blogFive">
+                    <Link className=" card-text blog-link " to="/BlogFive">
+                      <FaArrowRight
+                        fontSize="2.25rem"
+                        color="#181717"
+                        className="pe-3"
+                      />
+                      click to read more!
+                    </Link>
+                  </div>
+                </div>
+
+                <div className="col-md-4 col- m-2 card h-100 shadow-sm">
+                  <img src="" className="card-img-top" alt="Vanilla Soy Milk" />
+                  <div className="card-body">
+                    <h5 className="card-title mb-3">
+                      𝗧𝗵𝗲 𝗕𝗶𝗿𝘁𝗵 𝗼𝗳 𝗦𝗼𝘆𝗝𝗼𝘆: 𝗔 𝗝𝗼𝘂𝗿𝗻𝗲𝘆 𝗼𝗳 𝗖𝗼𝗺𝗽𝗮𝘀𝘀𝗶𝗼𝗻 𝗮𝗻𝗱 𝗣𝘂𝗿𝗽𝗼𝘀𝗲
+                    </h5>
+                    <Link className=" card-text blog-link " to="/BlogSix">
                       <FaArrowRight
                         fontSize="2.25rem"
                         color="#181717"

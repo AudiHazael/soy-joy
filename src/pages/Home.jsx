@@ -8,6 +8,7 @@ import Footer from "../components/footer";
 import Navbar from "../components/Navbar";
 import AccordionFlush from "../components/accordion";
 import HeroButton from "../components/HeroButton";
+import CTA from "../components/CTA";
 function Home() {
   return (
     <div>
@@ -22,14 +23,20 @@ function Home() {
 
       <Navbar />
 
-      <section className="hero One">
+      <section className="hero One" data-aos="fade-up" data-aos-duration="1000">
         <div className="container  d-flex flex-column justify-content-center">
           <div className="row justify-content-center align-items-center">
             <div className="col-md-12">
-              <h1 data-aos="fade-down" data-aos-duration="1000">
+              <h1
+                data-aos="fade-down"
+                data-aos-duration="1000"
+                data-aos-delay="500">
                 SOYJOY
               </h1>
-              <h2 data-aos="fade-up" data-aos-duration="1000">
+              <h2
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="500">
                 Sip Pure Joy with Soy
               </h2>
               <p
@@ -144,74 +151,6 @@ function Home() {
                   <p className="card-text">
                     Rich chocolate meets nutritious soy milk - indulge with
                     SoyJoy Chocolate!
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            {/* Card:SoyJoy Coconut */}
-            <div className="col">
-              <div className="card h-100 shadow-sm">
-                <img
-                  src="/images/soyjoy-coconut.png"
-                  className="card-img-top"
-                  alt="Unsweetened Soy Milk"
-                />
-                <div className="card-body">
-                  <h3 className="card-title mb-3">SoyJoy Coconut</h3>
-                  <p className="card-text">
-                    Refreshing coconut flavor in nutritious soy milk
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            {/* Card:SoyJoy Peach */}
-            <div className="col">
-              <div className="card h-100 shadow-sm">
-                <img
-                  src="/images/soyjoy-peach.png"
-                  className="card-img-top"
-                  alt="Unsweetened Soy Milk"
-                />
-                <div className="card-body">
-                  <h3 className="card-title mb-3">SoyJoy Peach</h3>
-                  <p className="card-text">
-                    Sweet peach flavor in refreshing soy milk.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            {/* Card:SoyJoy Strawberry */}
-            <div className="col">
-              <div className="card h-100 shadow-sm">
-                <img
-                  src="/images/soyjoy-strawberry2.png"
-                  className="card-img-top"
-                  alt="Unsweetened Soy Milk"
-                />
-                <div className="card-body ">
-                  <h3 className="card-title mb-3">SoyJoy Strawberry</h3>
-                  <p className="card-text">
-                    Berry delightful, sweet & fruity flavor in soy milk.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            {/* Card:SoyJoy Almond */}
-            <div className="col">
-              <div className="card h-100 shadow-sm">
-                <img
-                  src="/images/soyjoy-almond.png"
-                  className="card-img-top"
-                  alt="Unsweetened Soy Milk"
-                />
-                <div className="card-body">
-                  <h3 className="card-title mb-3">SoyJoy Almond</h3>
-                  <p className="card-text">
-                    Smooth nutty goodness in soy milk.
                   </p>
                 </div>
               </div>
@@ -371,7 +310,6 @@ function Home() {
           data-aos-easing="ease-in-out"
           data-aos-delay="500">
           <div className="row g-4 justify-content-center align-items-center">
-            <h3>Our Customers</h3>
             <div className="col-md-4 images">
               <div className="row g-4 justify-content-center align-items-center">
                 <div className="col-md-6">
@@ -405,6 +343,7 @@ function Home() {
               </div>
             </div>
             <div className="col-md-6">
+              <h3>Our Customers</h3>
               <div
                 id="carouselExampleSlidesOnly"
                 className="carousel slide"
@@ -559,57 +498,7 @@ function Home() {
         </div>
       </section>
 
-      <section className="cta pt-4 pb-4">
-        <div className="container">
-          <div
-            className="row justify-content-center subscribe pt-4 pb-4"
-            data-aos="zoom-in"
-            data-aos-easing="ease-in-out"
-            data-aos-delay="500"
-            data-aos-duration="1000">
-            <div className="col-md-12 pt-5 pb-5">
-              <div className="row justify-content-center align-items-center">
-                <div className="col-md-4 text-md-start text-center mb-3 mb-md-0">
-                  <h3>Subscribe to our Newsletter</h3>
-                </div>
-                <div className="col-md-6">
-                  <form className="d-flex">
-                    <input
-                      type="email"
-                      className="form-control me-2"
-                      placeholder="Your email"
-                      required
-                    />
-                    <button type="submit" className="btn btn-primary">
-                      Subscribe
-                    </button>
-                  </form>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div
-            className="row justify-content-center distributor"
-            data-aos="zoom-in"
-            data-aos-easing="ease-in-out"
-            data-aos-delay="500"
-            data-aos-duration="1000">
-            <div className="col-md-12 text-center">
-              <h3>Become a Distributor of SoyJoy</h3>
-              <p>
-                Join our growing network of distributors and bring the goodness
-                of soy milk to homes everywhere
-              </p>
-              <Link
-                className="btn-primary btn-info text-white fw-bold px-4"
-                to="/">
-                Contact Us !
-              </Link>
-            </div>
-          </div>
-        </div>
-      </section>
+      <CTA />
 
       <Footer />
     </div>
