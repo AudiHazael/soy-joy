@@ -594,7 +594,9 @@ p {
 @media (max-width: 767px) {
   .hero {
     background-image: url("/images/heroBgMobile.png");
-    padding: 1rem;
+    padding-top: 5rem;
+    justify-content: start;
+
     img {
       display: none;
     }
