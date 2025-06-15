@@ -27,7 +27,7 @@ function App() {
       <Route path="/BlogThree" element={<BlogThree />} />
       <Route path="/BlogFour" element={<BlogFour />} />
       <Route path="/BlogFive" element={<BlogFive />} />
-       <Route path="/BlogSix" element={<BlogSix />} />
+      <Route path="/BlogSix" element={<BlogSix />} />
     </Routes>
   );
 }
