@@ -9,7 +9,7 @@ import BlogOne from "./pages/Blogs/blogOne";
 import BlogTwo from "./pages/Blogs/BlogTwo";
 import BlogThree from "./pages/Blogs/BlogThree";
 import BlogFour from "./pages/Blogs/BlogFour";
-// import BlogFive from "./pages/Blogs/BlogFive";
+import BlogFive from "./pages/Blogs/BlogFive";
 import BlogSix from "./pages/Blogs/BlogSix";
 
 function App() {
@@ -26,7 +26,7 @@ function App() {
       <Route path="/BlogTwo" element={<BlogTwo />} />
       <Route path="/BlogThree" element={<BlogThree />} />
       <Route path="/BlogFour" element={<BlogFour />} />
-      {/* <Route path="/BlogFive" element={<BlogFive />} /> */}
+      <Route path="/BlogFive" element={<BlogFive />} />
       <Route path="/BlogSix" element={<BlogSix />} />
     </Routes>
   );
