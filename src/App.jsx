@@ -9,7 +9,7 @@ import BlogOne from "./pages/Blogs/blogOne";
 import BlogTwo from "./pages/Blogs/BlogTwo";
 import BlogThree from "./pages/Blogs/BlogThree";
 import BlogFour from "./pages/Blogs/BlogFour";
-import BlogFive from "./pages/Blogs/BlogFive";
+// import BlogFive from "./pages/Blogs/BlogFive";
 import BlogSix from "./pages/Blogs/BlogSix";
 
 function App() {
