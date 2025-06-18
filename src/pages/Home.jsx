@@ -23,7 +23,7 @@ function Home() {
 
       <Navbar />
 
-      <section className="hero One" data-aos="fade-up" data-aos-duration="1000">
+      <section className="hero One" data-aos="fade-up" data-aos-duration="1500">
         <div className="container  d-flex flex-column justify-content-center">
           <div className="row justify-content-center align-items-center">
             <div className="col-md-12">

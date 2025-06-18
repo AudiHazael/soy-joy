@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import { Helmet } from "react-helmet-async";
 import "../../styles/styles.scss";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
@@ -122,7 +122,7 @@ function BlogFive() {
 
       <Footer />
     </div>
-  )
+  );
 }
 
-export default BlogFive
+export default BlogFive;
