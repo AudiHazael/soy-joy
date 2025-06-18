@@ -134,7 +134,7 @@ function Blog() {
                   </div>
                 </div>
 
-                <div className="col-md-4 col- m-2 card h-100 shadow-sm">
+                {/* <div className="col-md-4 col- m-2 card h-100 shadow-sm">
                   <img src="" className="card-img-top" alt="Vanilla Soy Milk" />
                   <div className="card-body">
                     <h5 className="card-title mb-3">
@@ -149,7 +149,7 @@ function Blog() {
                       click to read more!
                     </Link>
                   </div>
-                </div>
+                </div> */}
 
                 <div className="col-md-4 col- m-2 card h-100 shadow-sm">
                   <img src="" className="card-img-top" alt="Vanilla Soy Milk" />
