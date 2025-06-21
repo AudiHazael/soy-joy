@@ -227,7 +227,7 @@ nav {
 }
 
 .heroTwo {
-  background-image: url("/images/heroBg.png");
+  background-image: url("/images/heroBgMobileTwo.png");
   background-size: cover;
   background-position: center;
   height: 50dvh;
@@ -596,7 +596,7 @@ p {
     background-image: url("/images/heroBgMobile.png");
     padding-top: 5rem;
     justify-content: start;
-    padding: 4rem 1.5rem;
+    padding: 6rem 3rem;
 
     img {
       display: none;
@@ -636,6 +636,12 @@ p {
         width: 95%;
       }
     }
+  }
+  .heroTwo {
+    background-image: url("/images/heroBgMobileTwo.png");
+    background-size: cover;
+    background-position: center;
+    height: fit-content;
   }
 
   .facts {

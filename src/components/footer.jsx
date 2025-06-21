@@ -26,8 +26,7 @@ function Footer() {
           <div
             className="col-md-4 mb-4 links"
             data-aos="fade-in"
-            data-aos-easing="ease-in-out"
-            data-aos-delay="1500">
+            data-aos-easing="ease-in-out">
             <div className="row">
               <ul className="list-unstyled">
                 <li>
@@ -52,8 +51,7 @@ function Footer() {
           <div
             className="col-md-4 col-12 contact-info P-4"
             data-aos="fade-in"
-            data-aos-easing="ease-in-out"
-            data-aos-delay="2000">
+            data-aos-easing="ease-in-out">
             <p>
               132 Dartmouth Street Boston, Massachusetts 02156 United States
             </p>

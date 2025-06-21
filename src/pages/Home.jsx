@@ -310,8 +310,8 @@ function Home() {
           data-aos-easing="ease-in-out"
           data-aos-delay="500">
           <div className="row g-4 justify-content-center align-items-center">
-            <div className="col-md-4 images">
-              <div className="row g-4 justify-content-center align-items-center">
+            {/* <div className="col-md-4 images">
+              <div className="row-cols-1 row row-cols-2 row-cols-md-2 row-cols-lg-4 g-4 justify-content-center justify-content-center align-items-center">
                 <div className="col-md-6">
                   <img
                     src="https://via.placeholder.com/150"
@@ -341,8 +341,8 @@ function Home() {
                   />
                 </div>
               </div>
-            </div>
-            <div className="col-md-6">
+            </div> */}
+            <div className="col-md-6 COL-12">
               <h3>Our Customers</h3>
               <div
                 id="carouselExampleSlidesOnly"
@@ -467,7 +467,7 @@ function Home() {
           data-aos-delay="500"
           data-aos-duration="1000">
           <h3>Our Insta Shots</h3>
-          <div className="row g-4 justify-content-center mt-2">
+          <div className="row-cols-1 row row-cols-2 row-cols-md-2 row-cols-lg-4 g-4 justify-content-center mt-2">
             <div className="col-md-3 ">
               <img src="https://via.placeholder.com/150" alt="insta-shot-one" />
             </div>
@@ -487,7 +487,7 @@ function Home() {
               />
             </div>
           </div>
-          <div className="handle">
+          <div className="handle mt-4">
             <p>
               Follow us
               <span>
