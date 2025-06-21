@@ -30,7 +30,7 @@ function Home() {
               <h1
                 data-aos="fade-down"
                 data-aos-duration="1000"
-                data-aos-delay="500">
+                data-aos-delay="500">    
                 SOYJOY
               </h1>
               <h2

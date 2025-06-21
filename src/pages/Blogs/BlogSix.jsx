@@ -1,6 +1,7 @@
 import React from "react";
 import { Helmet } from "react-helmet-async";
 import "../../styles/styles.scss";
+import '../../styles/blogstyle.scss';
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import Footer from "../../components/footer";
 import Navbar from "../../components/Navbar";

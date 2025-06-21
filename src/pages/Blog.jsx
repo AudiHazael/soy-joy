@@ -72,11 +72,6 @@ function Blog() {
                       Benefits of SoyJoy
                     </h5>
                     <Link className=" card-text blog-link " to="/BlogOne">
-                      <FaArrowRight
-                        fontSize="2.25rem"
-                        color="#181717"
-                        className="pe-3"
-                      />
                       click to read more!
                     </Link>
                   </div>
@@ -89,11 +84,6 @@ function Blog() {
                       Unlocking the Natural Benefits of SoyJoy
                     </h5>
                     <Link className=" card-text blog-link " to="/BlogTwo">
-                      <FaArrowRight
-                        fontSize="2.25rem"
-                        color="#181717"
-                        className="pe-3"
-                      />
                       click to read more!
                     </Link>
                   </div>
@@ -106,11 +96,6 @@ function Blog() {
                       Why Partner with SoyJoy: Unlocking Growth and Impact
                     </h5>
                     <Link className=" card-text blog-link " to="/BlogThree">
-                      <FaArrowRight
-                        fontSize="2.25rem"
-                        color="#181717"
-                        className="pe-3"
-                      />
                       click to read more!
                     </Link>
                   </div>
@@ -124,11 +109,6 @@ function Blog() {
                       Nutrition!
                     </h5>
                     <Link className=" card-text blog-link " to="/BlogFour">
-                      <FaArrowRight
-                        fontSize="2.25rem"
-                        color="#181717"
-                        className="pe-3"
-                      />
                       click to read more!
                     </Link>
                   </div>
@@ -141,11 +121,6 @@ function Blog() {
                       Go Green with SoyJoy: The Planet-Friendly Choice
                     </h5>
                     <Link className=" card-text blog-link " to="/BlogFive">
-                      <FaArrowRight
-                        fontSize="2.25rem"
-                        color="#181717"
-                        className="pe-3"
-                      />
                       click to read more!
                     </Link>
                   </div>
@@ -158,11 +133,6 @@ function Blog() {
                       𝗧𝗵𝗲 𝗕𝗶𝗿𝘁𝗵 𝗼𝗳 𝗦𝗼𝘆𝗝𝗼𝘆: 𝗔 𝗝𝗼𝘂𝗿𝗻𝗲𝘆 𝗼𝗳 𝗖𝗼𝗺𝗽𝗮𝘀𝘀𝗶𝗼𝗻 𝗮𝗻𝗱 𝗣𝘂𝗿𝗽𝗼𝘀𝗲
                     </h5>
                     <Link className=" card-text blog-link " to="/BlogSix">
-                      <FaArrowRight
-                        fontSize="2.25rem"
-                        color="#181717"
-                        className="pe-3"
-                      />
                       click to read more!
                     </Link>
                   </div>

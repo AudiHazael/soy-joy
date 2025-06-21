@@ -1,0 +1,28 @@
+.hero {
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+}
+
+.blog-content {
+  p {
+    font-size: 1.2rem;
+    color: #555;
+  }
+}
+
+/* Styles for mobile devices (767px or smaller) */
+@media (max-width: 767px) {
+  .hero {
+    h1 {
+      font-size: 2.25rem;
+    }
+  }
+
+  .blog-content {
+    h2 {
+      font-size: 1.25rem;
+    }
+  }
+}
