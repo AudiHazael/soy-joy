@@ -43,7 +43,8 @@ function Blog() {
             data-aos="fade-right"
             data-aos-delay="1000"
             data-aos-duration="800">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Join the conversation at SoyJoy: Where curiosity meets conversation.
+            Explore, learn, and grow with us!
           </p>
           <HeroButton />
         </div>
