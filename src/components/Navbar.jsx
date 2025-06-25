@@ -7,7 +7,7 @@ function Navbar() {
     <nav className="navbar navbar-expand-lg px-3">
       <div className="container">
         <Link className="navbar-brand" to="/home">
-          <img src="/images/logo-dark-noBg.png" alt="logo image" />
+          <img src="/public/images/Logo.png" alt="logo image" />
         </Link>
 
         {/* Hamburger toggle button */}
