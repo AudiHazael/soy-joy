@@ -4,11 +4,11 @@ import { Link } from "react-router-dom";
 import { FaEnvelope, FaPhoneAlt, FaMapMarkerAlt } from "react-icons/fa";
 import "../styles/styles.scss";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
-import Footer from "../components/footer";
-import Navbar from "../components/Navbar";
-import AccordionFlush from "../components/accordion";
-import Header from "../components/Header";
-import CTA from "../components/CTA";
+import Footer from "components/footer";
+import Navbar from "components/Navbar";
+import AccordionFlush from "components/accordion";
+import Header from "components/Header";
+import CTA from "components/CTA";
 
 function Home() {
   return (

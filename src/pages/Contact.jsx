@@ -4,9 +4,9 @@ import { Link } from "react-router-dom";
 import { FaEnvelope, FaPhoneAlt, FaMapMarkerAlt } from "react-icons/fa";
 import "../styles/styles.scss";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
-import Navbar from "../components/Navbar";
-import Footer from "../components/footer";
-import Header from "../components/Header";
+import Navbar from "components/Navbar";
+import Footer from "components/footer";
+import Header from "components/Header";
 
 function Contact() {
   return (

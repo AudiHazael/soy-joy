@@ -1,7 +1,7 @@
 import React from "react";
 import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";
-import Header from "../components/Header";
+import Header from "components/Header";
 
 import {
   FaArrowRight,
@@ -17,9 +17,8 @@ import {
 
 import "../styles/styles.scss";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
-import Navbar from "../components/Navbar";
-import Footer from "../components/footer";
-import Header from "../components/header";
+import Navbar from "components/Navbar";
+import Footer from "components/footer";
 
 function Blog() {
   return (
@@ -50,6 +49,7 @@ function Blog() {
           <HeroButton />
         </div>
       </section> */}
+
       <Header
         title="SOYJOY"
         subtitle="Blog"

@@ -2,12 +2,12 @@ import React from "react";
 import { Helmet } from "react-helmet-async";
 import "../styles/styles.scss";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
-import Footer from "../components/footer";
-import Navbar from "../components/Navbar";
-import Header from "../components/header";
-import Flavours from "../components/Flavours";
-import AccordionFlush from "../components/accordion";
-import CTA from "../components/CTA";
+import Footer from "components/footer";
+import Navbar from "components/Navbar";
+import Header from "components/Header";
+import Flavours from "components/Flavours";
+import AccordionFlush from "components/accordion";
+import CTA from "components/CTA";
 
 function Varieties() {
   return (

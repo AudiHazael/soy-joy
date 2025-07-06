@@ -3,11 +3,11 @@ import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";
 import "../styles/styles.scss";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
-import Footer from "../components/footer";
-import Navbar from "../components/Navbar";
-import AccordionFlush from "../components/accordion";
-import CTA from "../components/CTA";
-import Header from "../components/Header";
+import Footer from "components/footer";
+import Navbar from "components/Navbar";
+import AccordionFlush from "components/accordion";
+import CTA from "components/CTA";
+import Header from "components/Header";
 
 function About() {
   return (

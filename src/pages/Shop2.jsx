@@ -1,8 +1,8 @@
 import React from "react";
-import Header from "../components/Header";
-import Navbar from "../components/Navbar";
-import CTA from "../components/CTA";
-import Footer from "../components/footer";
+import Header from "components/Header";
+import Navbar from "components/Navbar";
+import CTA from "components/CTA";
+import Footer from "components/footer";
 import "../styles/shop-styles.scss";
 
 import { Swiper, SwiperSlide } from "swiper/react";
