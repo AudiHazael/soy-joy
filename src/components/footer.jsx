@@ -4,15 +4,10 @@ import "../styles/styles.scss";
 function Footer() {
   return (
     <section className="footer p-4">
-      <div className="container pt-4 d-flex flex-column justify-content-between align-items-center">
-        <div
-          className="socials"
-          data-aos="fade-in"
-          data-aos-easing="ease-in-out"
-          data-aos-delay="1000"></div>
-
-        <div className="row d-flex justify-content-between">
-          <div className="col-md-4 col-12 m-0 footHero">
+      <div className="container pt-4">
+        <div className="row justify-content-center">
+          {/* Logo column */}
+          <div className="col-md-3 col-12 mb-4">
             <a className="navbar-brand" href="index.html">
               <img src="/Images/Logo-Image.png" alt="Logo" className="logo" />
             </a>
@@ -23,50 +18,64 @@ function Footer() {
             </p>
           </div>
 
-          <div
-            className="col-md-4 mb-4 links"
-            data-aos="fade-in"
-            data-aos-easing="ease-in-out">
-            <div className="row">
-              <ul className="list-unstyled">
-                <li>
-                  <a href="/">Home</a>
-                </li>
-                <li>
-                  <a href="/flavors">Flavors</a>
-                </li>
-                <li>
-                  <a href="/about">About Us</a>
-                </li>
-                <li>
-                  <a href="/contact">Contact</a>
-                </li>
-                <li>
-                  <a href="/shop">Shop</a>
-                </li>
-              </ul>
+          {/* Links and contact column */}
+          <div className="col-md-6 col-12 mb-4">
+            <div className="row ">
+              {/* First link set */}
+              <div className="col-3">
+                <ul className="list-unstyled d-flex flex-column justify-content-start align-items-start">
+                  <li>
+                    <a href="/">Home</a>
+                  </li>
+                  <li>
+                    <a href="/faqs">FAQs</a>
+                  </li>
+                  <li>
+                    <a href="/gallery">Gallery</a>
+                  </li>
+                  <li>
+                    <a href="/careers">Careers</a>
+                  </li>
+                  <li>
+                    <a href="/shop">Shop</a>
+                  </li>
+                </ul>
+              </div>
+
+              {/* Second link set */}
+              <div className="col-3">
+                <ul className="list-unstyled d-flex flex-column justify-content-start align-items-start">
+                  <li>
+                    <a href="/amazon-store">Amazon Store</a>
+                  </li>
+                  <li>
+                    <a href="/jumia-store">Jumia Store</a>
+                  </li>
+                  {/* Add more links here */}
+                </ul>
+              </div>
+
+              {/* Contact info */}
+              <div className="col-4 col-12 contact-info">
+                <p>132 Dartmouth Street, Boston, MA 02156, USA</p>
+                <p>+1 012 3456 789</p>
+                <p>demo@gmail.com</p>
+              </div>
             </div>
           </div>
 
-          <div
-            className="col-md-4 col-12 contact-info P-4"
-            data-aos="fade-in"
-            data-aos-easing="ease-in-out">
-            <p>
-              132 Dartmouth Street Boston, Massachusetts 02156 United States
+          {/* Copyright */}
+          <div className="col-12 text-center">
+            <p className="mb-0">
+              © 2025 SoyJoy | Designed by{" "}
+              <a
+                href="https://wa.link/8k0f7s"
+                target="_blank"
+                rel="nofollow noopener">
+                Hazael Audi
+              </a>
             </p>
-            <p>+1012 3456 789</p>
-            <p>demo@gmail.com</p>
           </div>
-        </div>
-
-        <div className="copyright p-0 m-0 d-flex justify-content-center">
-          <p className="pt-2">
-            © Copyrights 2025 SoyJoy | Designed by{" "}
-            <a href="https://wa.link/8k0f7s" target="_blank" rel="nofollow">
-              Hazael Audi
-            </a>
-          </p>
         </div>
       </div>
     </section>
