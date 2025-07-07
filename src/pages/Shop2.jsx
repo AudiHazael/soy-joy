@@ -3,6 +3,7 @@ import Header from "components/Header";
 import Navbar from "components/Navbar";
 import CTA from "components/CTA";
 import Footer from "components/footer";
+import NavbarTwo from "components/Navbar-two";
 import "../styles/shop-styles.scss";
 
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -13,6 +14,7 @@ function Shop2() {
   return (
     <div>
       <Navbar />
+      <NavbarTwo />
 
       <Header
         title="SOYJOY"
@@ -24,7 +26,7 @@ function Shop2() {
 
       <section className="categories pt-5 pb-5">
         <div className="container">
-          <h2 className="mb-4">Popular Categories</h2>
+          <h2 className="mb-4">Popular Products</h2>
           <Swiper
             modules={[Autoplay]}
             slidesPerView="auto"

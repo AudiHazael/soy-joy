@@ -7,7 +7,7 @@ function Footer() {
       <div className="container pt-4">
         <div className="row justify-content-center">
           {/* Logo column */}
-          <div className="col-md-3 col-12 mb-4">
+          <div className="col-md-4 col-12 mb-4">
             <a className="navbar-brand" href="index.html">
               <img src="/Images/Logo-Image.png" alt="Logo" className="logo" />
             </a>
@@ -19,7 +19,7 @@ function Footer() {
           </div>
 
           {/* Links and contact column */}
-          <div className="col-md-6 col-12 mb-4">
+          <div className="col-md-4 col-12 mb-4">
             <div className="row ">
               {/* First link set */}
               <div className="col-3">
@@ -28,16 +28,16 @@ function Footer() {
                     <a href="/">Home</a>
                   </li>
                   <li>
-                    <a href="/faqs">FAQs</a>
+                    <a href="/Faq">FAQs</a>
                   </li>
                   <li>
                     <a href="/gallery">Gallery</a>
                   </li>
                   <li>
-                    <a href="/careers">Careers</a>
+                    <a href="/Career">Careers</a>
                   </li>
                   <li>
-                    <a href="/shop">Shop</a>
+                    <a href="/shop2">Shop</a>
                   </li>
                 </ul>
               </div>
@@ -46,22 +46,22 @@ function Footer() {
               <div className="col-3">
                 <ul className="list-unstyled d-flex flex-column justify-content-start align-items-start">
                   <li>
-                    <a href="/amazon-store">Amazon Store</a>
+                    <a href="/#">Amazon Store</a>
                   </li>
                   <li>
-                    <a href="/jumia-store">Jumia Store</a>
+                    <a href="/#">Jumia Store</a>
                   </li>
                   {/* Add more links here */}
                 </ul>
               </div>
-
-              {/* Contact info */}
-              <div className="col-4 col-12 contact-info">
-                <p>132 Dartmouth Street, Boston, MA 02156, USA</p>
-                <p>+1 012 3456 789</p>
-                <p>demo@gmail.com</p>
-              </div>
             </div>
+          </div>
+
+          {/* Contact info */}
+          <div className="col-md-4 col-12 contact-info">
+            <p>132 Dartmouth Street, Boston, MA 02156, USA</p>
+            <p>+1 012 3456 789</p>
+            <p>demo@gmail.com</p>
           </div>
 
           {/* Copyright */}

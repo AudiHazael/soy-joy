@@ -12,6 +12,9 @@ import BlogFour from "./pages/Blogs/BlogFour";
 import BlogFive from "./pages/Blogs/BlogFive";
 import BlogSix from "./pages/Blogs/BlogSix";
 import Shop2 from "./pages/Shop2";
+import Faq from "./pages/Faq";
+import Career from "./pages/Career";
+import Gallery from "./pages/Gallery";
 
 function App() {
   return (
@@ -30,6 +33,9 @@ function App() {
       <Route path="/BlogFour" element={<BlogFour />} />
       <Route path="/BlogFive" element={<BlogFive />} />
       <Route path="/BlogSix" element={<BlogSix />} />
+      <Route path="/Faq" element={<Faq />} />
+      <Route path="/Career" element={<Career />} />
+      <Route path="/Gallery" element={<Gallery />} />
     </Routes>
   );
 }

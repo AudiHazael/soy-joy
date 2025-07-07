@@ -1,0 +1,224 @@
+.nav-two {
+  background-color: #fffcf6;
+}
+.header_sub_two {
+  width: 100%;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  padding-left: 10px;
+  position: relative;
+}
+
+.nav_bar {
+  width: 100%;
+}
+
+.nav_bar nav ul {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-left: 5rem;
+}
+
+.nav_bar nav ul li {
+  list-style: none;
+  margin-left: 20px;
+}
+
+.nav_bar nav ul li a {
+  font-size: 0.85em;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.942);
+  transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+  position: relative;
+  margin: 0 0 4px 4px;
+}
+
+nav ul li a:hover {
+  color: var(--main_color);
+}
+
+nav ul li a::before {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 3px;
+  top: 0;
+  right: 0px;
+  background-color: var(--main_color);
+  transition: 0.4s;
+}
+
+nav ul li a:hover::before {
+  width: 100%;
+}
+
+nav ul li a::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 3px;
+  bottom: 0;
+  left: 0px;
+  background-color: var(--main_color);
+  transition: 0.4s;
+}
+
+nav ul li a:hover:after {
+  width: 100%;
+}
+
+.input_box {
+  margin-right: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input_box input {
+  width: 100%;
+  border-top: 0.1px solid rgba(128, 128, 128, 0.3);
+  border-left: 0.1px solid rgba(128, 128, 128, 0.3);
+  border-bottom: 0.1px solid rgba(128, 128, 128, 0.3);
+  border-right: none;
+  outline: none;
+  padding: 10px 20px;
+  border-radius: 6px 0 0 6px;
+  background-color: transparent;
+}
+
+.input_box input::placeholder {
+  font-size: 0.9.5em;
+  color: var(--Bg_gray);
+  text-transform: capitalize;
+}
+
+.input_box button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(207, 207, 207, 0.118);
+  border: none;
+  outline: none;
+  padding: 11px 10px;
+  border-top: 0.1px solid rgba(128, 128, 128, 0.3);
+  border-right: 0.1px solid rgba(128, 128, 128, 0.3);
+  border-bottom: 0.1px solid rgba(128, 128, 128, 0.3);
+  border-radius: 0 6px 6px 0;
+  border-left: none;
+}
+
+.input_box button .bx {
+  font-size: 1.3em;
+  color: rgba(128, 128, 128, 0.945);
+}
+
+.icon_box {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.icon_box .bx {
+  font-size: 1.4em;
+  margin: 0 5px;
+  font-weight: 500;
+}
+
+.icon_box a {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+
+#Cart_icon {
+  position: relative;
+  cursor: pointer;
+}
+
+#Cart_icon[data-quantity="0"]::after {
+  content: "";
+}
+
+#Cart_icon[data-quantity]::after {
+  content: attr(data-quantity);
+  position: absolute;
+  top: -2px;
+  right: -9px;
+  width: 18px;
+  height: 18px;
+  background-color: var(--main_color);
+  font-size: 0.5em;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#heart_icon {
+  position: relative;
+  cursor: pointer;
+}
+
+#heart_icon[data-quantity]::after {
+  content: "";
+}
+
+#heart_icon[data-quantity]::after {
+  content: "";
+  position: absolute;
+  top: -2px;
+  right: -12px;
+  width: 15px;
+  height: 15px;
+  background-color: var(--main_color);
+  font-size: 0.9em;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bar {
+  width: 25px;
+  height: 17px;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  right: 0;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+  margin-right: 5px;
+  margin-top: -4px;
+}
+
+.bar.roller {
+  transform: rotate(90deg);
+}
+
+.bar_sub {
+  width: 100%;
+  height: 2.5px;
+  background-color: var(--main_color);
+  border-radius: 30px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.bar .bar_sub:nth-child(2) {
+  width: 70%;
+}
+
+.bar.active .bar_sub:nth-child(1) {
+  transform: rotate(-45deg) translate(-6px, 5px);
+}
+
+.bar.active .bar_sub:nth-child(2) {
+  opacity: 0;
+}
+
+.bar.active .bar_sub:nth-child(3) {
+  transform: rotate(45deg) translate(-5px, -4px);
+}

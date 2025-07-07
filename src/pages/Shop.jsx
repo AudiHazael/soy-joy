@@ -5,6 +5,7 @@ import "../styles/styles.scss";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import Footer from "components/footer";
 import Navbar from "components/Navbar";
+import NavbarTwo from "components/Navbar-two";
 
 function Shop() {
   return (
@@ -19,7 +20,7 @@ function Shop() {
       </Helmet>
 
       <Navbar />
-
+      <NavbarTwo />
       <section className="heroTwo hero">
         <div className="container">
           <h1 data-aos="fade-down" data-aos-duration="1000">
