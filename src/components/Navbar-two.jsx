@@ -3,7 +3,12 @@ import "../styles/nav2.css";
 
 function NavbarTwo() {
   const toggleNavBar = () => {
-    // Add your toggle logic here (e.g., setState to toggle a sidebar)
+    var bar = document.querySelector(".bar");
+    var navBar = document.getElementById("navbar");
+
+    bar.classList.toggle("roller");
+    bar.classList.toggle("active");
+    navBar.classList.toggle("navigation");
     console.log("Toggle navbar clicked");
   };
 
