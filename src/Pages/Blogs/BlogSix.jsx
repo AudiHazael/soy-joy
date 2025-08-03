@@ -53,7 +53,7 @@ export default function BlogFour() {
         </div>
 
         {/* Article Body */}
-        <section className="py-8 bg-white">
+        <section className="py-4 bg-white">
           <div className="prose prose-lg max-w-none text-gray-700 py-8">
             <p className="mb-6">
               Are you ready to revolutionize your health and wellbeing? Look no
@@ -71,12 +71,6 @@ export default function BlogFour() {
               bone density. And with SoyJoy, you can enjoy all these benefits in
               a delicious and convenient way!
             </p>
-
-            <img
-              src="/path-to-your-blog-image.jpg"
-              alt="Pouring a glass of SoyJoy"
-              className="w-full h-auto rounded-lg mb-6"
-            />
 
             <h2 className="text-2xl font-semibold mt-8 mb-4">
               Top 8 Health Benefits of SoyJoy
@@ -191,7 +185,7 @@ export default function BlogFour() {
               soy milk. Your body (and taste buds) will thank you!
             </p>
 
-            <h3 className="text-xl italic text-center mb-6">
+            <h3 className="text-xl italic mb-6">
               Sip, savor, and thrive with SoyJoy!
             </h3>
           </div>

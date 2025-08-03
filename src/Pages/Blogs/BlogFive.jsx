@@ -52,7 +52,7 @@ export default function BlogFour() {
         </div>
 
         {/* Article Body */}
-        <section className="py-8 bg-white">
+        <section className="py-4 bg-white">
           <div className="prose prose-lg max-w-none text-gray-700 py-8">
             <p className="mb-6">
               As I saw the impact of debilitating diseases like obesity, cancer,

@@ -52,7 +52,7 @@ export default function BlogThree() {
         </div>
 
         {/* Article Body */}
-        <section className="py-8 bg-white">
+        <section className="py-4 bg-white">
           <div className="prose prose-lg max-w-none text-gray-700 py-8">
             {/* <p>
               Are you looking for a partner that shares your values and

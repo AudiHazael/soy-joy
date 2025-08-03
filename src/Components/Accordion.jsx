@@ -59,7 +59,7 @@ export default function AccordionFlush() {
         </div>
         <div className="mt-8">
           <a
-            href="/FAQ"
+            href="/Faq"
             className="text-indigo-600 font-semibold hover:underline"
           >
             See All Questions →
