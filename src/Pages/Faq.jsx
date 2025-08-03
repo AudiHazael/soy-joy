@@ -159,7 +159,7 @@ const allFaqs = [
   // { question: "", answer: "" },
 ];
 
-export default function FAQ() {
+export default function Faq() {
   return (
     <main className="bg-white">
       <Navbar />
