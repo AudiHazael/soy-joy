@@ -277,7 +277,7 @@ function Home() {
       </section>
 
       <section className="bg-stone-50  py-12 overflow-hidden justify-center items-center">
-        <div className="grid grid-cols-1 md:grid-cols-12 gap-4 max-w-7xl mx-auto md:px-4">
+        <div className="grid grid-cols-1 md:grid-cols-12 gap-4 max-w-7xl mx-auto px-4">
           <div className="md:col-span-7 ">
             <Testimonials />
           </div>
