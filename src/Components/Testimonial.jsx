@@ -33,7 +33,7 @@ export default function Testimonials() {
   };
 
   return (
-    <section className="max-w-7xl mx-auto py-8 px-4">
+    <section className="mx-auto py-8 px-4">
       <motion.h2
         className="text-2xl font-bold mb-6 text-zinc-950"
         initial={{ opacity: 0, scale: 0.95 }}
