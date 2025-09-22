@@ -57,7 +57,7 @@ export default function Testimonials() {
         {reviews.map((r, i) => (
           <SwiperSlide key={i}>
             <motion.div
-              className="bg-black/10 rounded-md shadow-md p-6 flex flex-col w-full h-auto"
+              className="p-6 flex flex-col w-full h-auto bg-white rounded-sm shadow-lg overflow-hidden transition-transform transform hover:scale-105 duration-300 hover:shadow-xl"
               initial={{ opacity: 0, scale: 0.95 }}
               whileInView={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.6, ease: "easeOut" }}
