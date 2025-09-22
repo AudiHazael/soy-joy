@@ -13,48 +13,19 @@ export default function Hero({
   contactLink = "/Contact",
 }) {
   return (
-    <section
-      className="flex items-center w-full min-h-[75vh] px-4 md:px-20 text-white bg-[url('/bgimg.png')] bg-cover bg-center overflow-hidden"
-      data-aos="fade-up"
-      data-aos-delay="200"
-    >
+    <section className="flex items-center w-full min-h-[75vh] px-4 md:px-20 text-white bg-[url('/bgimg.png')] bg-cover bg-center overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           {/* Text Column */}
           <div>
-            <h1
-              className="text-4xl font-bold text-gray-900 mb-2"
-              data-aos="fade-down"
-              data-aos-duration="1000"
-              data-aos-delay="500"
-            >
-              {title}
-            </h1>
-            <h2
-              className="text-3xl font-semibold text-amber-500 mb-2"
-              data-aos="fade-up"
-              data-aos-duration="1000"
-              data-aos-delay="500"
-            >
+            <h1 className="text-4xl font-bold text-gray-900 mb-2">{title}</h1>
+            <h2 className="text-3xl font-semibold text-amber-500 mb-2">
               {subtitle}
             </h2>
-            <p
-              className="text-2xl text-gray-950 font-semibold mb-6"
-              data-aos="fade-right"
-              data-aos-delay="1000"
-              data-aos-duration="800"
-            >
-              {text}
-            </p>
+            <p className="text-2xl text-gray-950 font-semibold mb-6">{text}</p>
 
             {/* Buttons */}
-            <div
-              className="flex flex-wrap gap-4 mt-4"
-              data-aos="fade"
-              data-aos-easing="ease-in-out"
-              data-aos-delay="1500"
-              data-aos-duration="1000"
-            >
+            <div className="flex flex-wrap gap-4 mt-4">
               {showShop && (
                 <Link
                   to={shopLink}

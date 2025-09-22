@@ -4,13 +4,7 @@ import React from "react";
 function Flavours() {
   return (
     <section className="py-12 bg-white">
-      <div
-        className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"
-        data-aos="fade"
-        data-aos-easing="ease-in-out"
-        data-aos-delay="500"
-        data-aos-duration="1000"
-      >
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-3xl font-bold text-center mb-2">
           Our Delicious Varieties
         </h2>

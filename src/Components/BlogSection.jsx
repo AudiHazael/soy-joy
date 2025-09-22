@@ -86,7 +86,7 @@ export default function BlogSection() {
               <img
                 src={blog.image}
                 alt={blog.title}
-                className="h-48 w-full object-cover"
+                className="h-64 w-full object-cover"
               />
               <div className="p-6">
                 <h3 className="text-xl font-semibold text-gray-800">

@@ -23,13 +23,7 @@ function Home() {
 
       <section className="pt-5 pb-5 bg-amber-50 overflow-hidden">
         <div className="max-w-7xl mx-auto px-4">
-          <div
-            className="flex flex-col md:flex-row md:justify-center md:items-start gap-2 md:gap-8"
-            data-aos="fade"
-            data-aos-easing="ease-in-out"
-            data-aos-delay="500"
-            data-aos-duration="1000"
-          >
+          <div className="flex flex-col md:flex-row md:justify-center md:items-start gap-2 md:gap-8">
             {/* Left Column */}
             <div className="md:w-1/3 flex items-start space-x-5">
               <h3 className="text-3xl font-semibold leading-snug">
@@ -44,13 +38,7 @@ function Home() {
             </div>
 
             {/* Right Column */}
-            <div
-              className="md:w-2/3"
-              data-aos="fade"
-              data-aos-easing="ease-in-out"
-              data-aos-delay="500"
-              data-aos-duration="1000"
-            >
+            <div className="md:w-2/3">
               <p className="text-sm text-gray-700">
                 SoyJoy milk is the ultimate game-changer for your daily
                 nutrition! Packed with powerhouse protein, brain-boosting B
@@ -64,13 +52,7 @@ function Home() {
       </section>
 
       <section className="py-10 bg-white overflow-hidden">
-        <div
-          className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"
-          data-aos="fade"
-          data-aos-easing="ease-in-out"
-          data-aos-delay="500"
-          data-aos-duration="1000"
-        >
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Heading */}
           <h2 className="text-3xl font-bold text-gray-900 mb-2">
             Our Delicious Varieties
@@ -149,10 +131,6 @@ function Home() {
             <Link
               to="/Varieties"
               className="bg-orange-400 hover:bg-orange-500 text-white font-bold py-2 px-6 rounded transition"
-              data-aos="fade"
-              data-aos-easing="ease-in-out"
-              data-aos-delay="1500"
-              data-aos-duration="1000"
             >
               See More
             </Link>
@@ -161,13 +139,7 @@ function Home() {
       </section>
 
       <section className="py-10 bg-white overflow-hidden">
-        <div
-          className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"
-          data-aos="fade"
-          data-aos-easing="ease-in-out"
-          data-aos-delay="500"
-          data-aos-duration="1000"
-        >
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {/* Card Item */}
             {[
@@ -209,10 +181,6 @@ function Home() {
               target=""
               rel="noopener noreferrer"
               className="bg-orange-400 hover:bg-orange-500 text-white font-bold px-6 py-2 rounded transition"
-              data-aos="fade"
-              data-aos-easing="ease-in-out"
-              data-aos-delay="1500"
-              data-aos-duration="1000"
             >
               Shop Now !
             </Link>
@@ -222,13 +190,7 @@ function Home() {
 
       <section className="pt-5 pb-5 bg-amber-50 overflow-hidden">
         <div className="max-w-7xl mx-auto px-4">
-          <div
-            className="flex flex-col md:flex-row md:justify-center md:items-start gap-2 md:gap-8"
-            data-aos="fade"
-            data-aos-easing="ease-in-out"
-            data-aos-delay="500"
-            data-aos-duration="1000"
-          >
+          <div className="flex flex-col md:flex-row md:justify-center md:items-start gap-2 md:gap-8">
             {/* Left Column */}
             <div className="md:w-1/3 flex items-start space-x-5">
               <h3 className="text-3xl font-semibold leading-snug">
@@ -243,13 +205,7 @@ function Home() {
             </div>
 
             {/* Right Column */}
-            <div
-              className="md:w-2/3"
-              data-aos="fade"
-              data-aos-easing="ease-in-out"
-              data-aos-delay="500"
-              data-aos-duration="1000"
-            >
+            <div className="md:w-2/3">
               <p className="text-sm leading-relaxed">
                 SoyJoy is more than just delicious — it's naturally
                 lactose-free, making it a perfect fit for those with lactose
@@ -293,13 +249,7 @@ function Home() {
 
       <section className="pt-5 pb-5 bg-amber-50 overflow-hidden">
         <div className="max-w-7xl mx-auto px-4">
-          <div
-            className="flex flex-col md:flex-row md:justify-center md:items-start gap-2 md:gap-8"
-            data-aos="fade"
-            data-aos-easing="ease-in-out"
-            data-aos-delay="500"
-            data-aos-duration="1000"
-          >
+          <div className="flex flex-col md:flex-row md:justify-center md:items-start gap-2 md:gap-8">
             {/* Left Column */}
             <div className="md:w-1/3 flex items-start space-x-5">
               <h3 className="text-3xl font-semibold leading-snug">
@@ -314,13 +264,7 @@ function Home() {
             </div>
 
             {/* Right Column */}
-            <div
-              className="md:w-2/3"
-              data-aos="fade"
-              data-aos-easing="ease-in-out"
-              data-aos-delay="500"
-              data-aos-duration="1000"
-            >
+            <div className="md:w-2/3">
               <p className="text-sm leading-relaxed">
                 SoyJoy is a planet-friendly choice? Producing SoyJoy uses less
                 water, land, and emits fewer greenhouse gases compared to dairy
@@ -332,13 +276,7 @@ function Home() {
       </section>
 
       <section className="py-12 bg-white insta">
-        <div
-          className="max-w-7xl mx-auto px-4"
-          data-aos="fade"
-          data-aos-easing="ease-in-out"
-          data-aos-delay="500"
-          data-aos-duration="1000"
-        >
+        <div className="max-w-7xl mx-auto px-4">
           <h3 className="text-2xl font-semibold text-center mb-4">
             Our Insta Shots
           </h3>

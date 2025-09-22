@@ -14,10 +14,6 @@ function HeroButton({
         <Link
           to={shopLink}
           className="bg-blue-600 hover:bg-blue-700 text-white font-bold px-6 py-2 rounded transition duration-300"
-          data-aos="fade"
-          data-aos-easing="ease-in-out"
-          data-aos-delay="1500"
-          data-aos-duration="1000"
         >
           {shopText}
         </Link>
@@ -27,10 +23,6 @@ function HeroButton({
         <Link
           to={contactLink}
           className="bg-green-600 hover:bg-green-700 text-white font-bold px-6 py-2 rounded transition duration-300"
-          data-aos="fade"
-          data-aos-easing="ease-in-out"
-          data-aos-delay="2000"
-          data-aos-duration="1000"
         >
           {contactText}
         </Link>

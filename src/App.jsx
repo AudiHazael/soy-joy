@@ -23,7 +23,7 @@ function App() {
         <Route path="Varieties" element={<Varieties />} />
         <Route path="/Contact" element={<Contact />} />
         <Route path="/Blog" element={<Blog />} />
-        <Route path="/FAQ" element={<FAQ />} />
+        <Route path="/Faq" element={<FAQ />} />
         <Route
           path="/blogs/unlocking-the-natural-benefits-of-soyjoy"
           element={<BlogOne />}
