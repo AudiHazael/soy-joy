@@ -232,7 +232,7 @@ function Home() {
         </div>
       </section>
 
-      <section className="bg-stone-50  py-12 overflow-hidden justify-center items-center">
+      {/* <section className="bg-stone-50  py-12 overflow-hidden justify-center items-center">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-4 max-w-7xl mx-auto px-4">
           <div className="md:col-span-7 ">
             <Testimonials />
@@ -245,7 +245,7 @@ function Home() {
             />
           </div>
         </div>
-      </section>
+      </section> */}
 
       <section className="pt-5 pb-5 bg-amber-50 overflow-hidden">
         <div className="max-w-7xl mx-auto px-4">
